@@ -46,7 +46,7 @@ function CarouselMain() {
     }, [currentIndex]);
 
     return (
-        <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group mt-10'>
+        <div className="xl:max-w-[1400px] xl:h-[780px] lg:h-[600px] md:h-[500px] sm:h-[400px] h-[300px] w-full m-auto py-16 px-4 relative group mt-10">
             {/* Container for the image slides */}
             <div className="w-full h-full absolute inset-0 overflow-hidden rounded-2xl">
                 <div className="relative h-full">
@@ -57,30 +57,35 @@ function CarouselMain() {
                                 ? 'opacity-100'
                                 : 'opacity-0'
                                 }`}
-                            style={{ backgroundImage: `url(${slide.url})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+                            style={{
+                                backgroundImage: `url(${slide.url})`,
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center',
+                            }}
                         ></div>
                     ))}
                 </div>
             </div>
 
             {/* Left Arrow */}
-            <div className='hidden group-hover:block absolute top-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+            <div className="hidden group-hover:block absolute top-1/2 left-2 md:left-5 transform -translate-y-1/2 text-xl md:text-2xl rounded-full p-1 md:p-2 bg-black/30 text-white cursor-pointer">
                 <BsChevronCompactLeft onClick={prevSlide} size={30} />
             </div>
+
             {/* Right Arrow */}
-            <div className='hidden group-hover:block absolute top-[50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+            <div className="hidden group-hover:block absolute top-1/2 right-2 md:right-5 transform -translate-y-1/2 text-xl md:text-2xl rounded-full p-1 md:p-2 bg-black/30 text-white cursor-pointer">
                 <BsChevronCompactRight onClick={nextSlide} size={30} />
             </div>
 
             {/* Dots for Navigation - Positioned at the bottom of the container */}
-            <div className='absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2'>
+            <div className="absolute bottom-3 md:bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-1 md:space-x-2">
                 {slides.map((slide, slideIndex) => (
                     <div
                         key={slideIndex}
                         onClick={() => goToSlide(slideIndex)}
                         className={`cursor-pointer ${slideIndex === currentIndex
-                            ? 'text-3xl scale-125' // Larger and highlighted for active slide
-                            : 'text-2xl'
+                            ? 'text-xl md:text-3xl scale-110 md:scale-125' // Larger and highlighted for active slide
+                            : 'text-lg md:text-2xl'
                             } text-white transition-transform duration-300`}
                     >
                         <RxDotFilled />
