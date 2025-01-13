@@ -28,7 +28,7 @@ export default function Header() {
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">Ingla</span>
-                        <button onClick={() => navigateTo('/')} className='exo-2 text-4xl mb-2'>Thexactime</button>
+                        <button onClick={() => navigateTo('/')} className='exo-2 text-4xl mb-2 '>Ingla Logo</button>
                     </a>
                 </div>
                 <div className="flex lg:hidden">
