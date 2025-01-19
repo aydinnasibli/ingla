@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Logo from '../assets/cropped_image.png'
+import Logo from '../assets/ingla-logo.png'
 import {
     Dialog,
     DialogPanel,
@@ -23,12 +23,13 @@ export default function Header() {
     };
 
     return (
-        <header className='bg-white shadow-lg rounded-xl  top-0 z-10 select-none'>
+        <header className='bg-white  shadow-lg  rounded-xl  top-0 z-10 select-none'>
             <nav aria-label="Global" className=" mx-auto flex items-center justify-between p-6 lg:px-8">
                 <div className="flex lg:flex-1">
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">Ingla</span>
-                        <button onClick={() => navigateTo('/')} className='exo-2 text-4xl mb-2 '>Ingla Logo</button>
+                        <img onClick={() => navigateTo('/')} className="h-16 lg:h-20 " alt="Logo" src={Logo} />
+
                     </a>
                 </div>
                 <div className="flex lg:hidden">
