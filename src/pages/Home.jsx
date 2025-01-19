@@ -111,7 +111,7 @@ function Home() {
                                     Komandamız</h2>
                                 <p class="text-lg text-gray-500 mb-16 text-center lg:text-left">These people work on making our
                                     product best.</p>
-                                <button class="cursor-pointer py-3 px-8 w-60 bg-blue-400 text-white text-base font-semibold transition-all duration-500 block text-center rounded-full hover:bg-blue-500 mx-auto lg:mx-0">Daha çox</button>
+                                <button class="cursor-pointer py-3 px-8 w-60 bg-blue-500 text-white text-base font-semibold transition-all duration-500 block text-center rounded-full hover:bg-blue-600 mx-auto lg:mx-0">Daha çox</button>
                             </div>
                             <div class="w-full lg:w-1/2 lg:mt-0 md:mt-40 mt-16 max-lg:max-w-2xl">
                                 <div class="grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 gap-8">
