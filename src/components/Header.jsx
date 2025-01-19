@@ -44,7 +44,7 @@ export default function Header() {
                 </div>
                 <PopoverGroup className="hidden lg:flex lg:gap-x-12">
                     <details className="dropdown">
-                        <summary className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer flex items-center">
+                        <summary className=" font-semibold leading-6 text-base text-gray-900 cursor-pointer flex items-center">
                             Xidmətlər
                             <svg
                                 className="ml-2 w-4 h-4 transform transition-transform duration-200"
@@ -77,11 +77,11 @@ export default function Header() {
                     </details>
 
 
-                    <button onClick={() => navigateTo('/haqqimizda')} className='text-sm font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Haqqımızda</button>
-                    <button onClick={() => navigateTo('/kontakt')} className='text-sm font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Kontakt</button>
-                    <button onClick={() => navigateTo('/xaricdetehsil')} className='text-sm font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Xaricdə Təhsil</button>
+                    <button onClick={() => navigateTo('/haqqimizda')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Haqqımızda</button>
+                    <button onClick={() => navigateTo('/kontakt')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Kontakt</button>
+                    <button onClick={() => navigateTo('/xaricdetehsil')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Xaricdə Təhsil</button>
 
-                    <button onClick={() => navigateTo('/preschool')} className='text-sm font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Preschool</button>
+                    <button onClick={() => navigateTo('/preschool')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Preschool</button>
                 </PopoverGroup>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <ContactUsButton onClick={() => navigateTo('/')} >Contact Us</ContactUsButton>
