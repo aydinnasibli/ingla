@@ -3,7 +3,9 @@ import React from "react";
 const Footer = () => {
     return (
         <footer className="footer footer-center mt-10 p-10">
-            <hr className="border-gray-400 my-4" />
+            <hr className="border-t border-gray-400 my-4 w-full" style={{ borderWidth: '1px' }} />
+
+
 
             <aside>
                 <svg

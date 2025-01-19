@@ -89,7 +89,7 @@ const TestimonialSlider = () => {
     }, []);
 
     return (
-        <section className="py-24">
+        <section className="py-24 border-2 rounded-3xl">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="mb-16 text-center">
                     <span className="text-sm text-gray-500 font-medium block mb-2">
