@@ -11,10 +11,10 @@ function Kontakt() {
                                 <img
                                     src="https://pagedone.io/asset/uploads/1696488602.png"
                                     alt="ContactUs tailwind section"
-                                    className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover"
+                                    className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-gray-700 object-cover"
                                 />
                                 <h1 className="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">
-                                    Contact us
+                                    Bizimlə Əlaqə Saxlayın
                                 </h1>
                                 <div className="absolute bottom-0 w-full lg:p-11 p-5">
                                     <div className="bg-white rounded-lg p-6 block">
@@ -86,13 +86,13 @@ function Kontakt() {
                         </div>
                     </div>
                     <div className="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
-                        <h2 className="text-indigo-600 font-manrope text-4xl font-semibold leading-10 mb-11">
-                            Send Us A Message
+                        <h2 className="text-gray-600 font-manrope text-4xl font-semibold leading-10 mb-11">
+                            Mesajınızı göndərin
                         </h2>
                         <input
                             type="text"
                             className="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
-                            placeholder="Name"
+                            placeholder="Ad Soyad"
                         />
                         <input
                             type="text"
@@ -102,11 +102,11 @@ function Kontakt() {
                         <input
                             type="text"
                             className="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
-                            placeholder="Phone"
+                            placeholder="Telefon"
                         />
                         <div className="mb-10">
                             <h4 className="text-gray-500 text-lg font-normal leading-7 mb-4">
-                                Preferred method of communication
+                                Əlaqə üçün üstünlük verilən üsul
                             </h4>
                             <div className="flex">
                                 <div className="flex items-center mr-11">
@@ -114,7 +114,7 @@ function Kontakt() {
                                         id="radio-group-1"
                                         type="radio"
                                         name="radio-group"
-                                        className="hidden checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100"
+                                        className="hidden checked:bg-no-repeat checked:bg-center checked:border-gray-500 checked:bg-gray-100"
                                     />
                                     <label
                                         htmlFor="radio-group-1"
@@ -129,14 +129,14 @@ function Kontakt() {
                                         id="radio-group-2"
                                         type="radio"
                                         name="radio-group"
-                                        className="hidden checked:bg-no-repeat checked:bg-center checked:border-indigo-500 checked:bg-indigo-100"
+                                        className="hidden checked:bg-no-repeat checked:bg-center checked:border-gray-500 checked:bg-gray-100"
                                     />
                                     <label
                                         htmlFor="radio-group-2"
                                         className="flex items-center cursor-pointer text-gray-500 text-base font-normal leading-6"
                                     >
                                         <span className="border border-gray-300  rounded-full mr-2 w-4 h-4  ml-2 " />{" "}
-                                        Phone
+                                        Telefon
                                     </label>
                                 </div>
                             </div>
@@ -146,8 +146,8 @@ function Kontakt() {
                             className="w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10"
                             placeholder="Message"
                         />
-                        <button className="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm">
-                            Send
+                        <button className="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-gray-800 bg-gray-600 shadow-sm">
+                            Göndər
                         </button>
                     </div>
                 </div>

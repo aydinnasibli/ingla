@@ -78,7 +78,7 @@ export default function Header() {
 
 
                     <button onClick={() => navigateTo('/haqqimizda')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Haqqımızda</button>
-                    <button onClick={() => navigateTo('/kontakt')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Kontakt</button>
+                    <button onClick={() => navigateTo('/kontakt')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Əlaqə</button>
                     <button onClick={() => navigateTo('/xaricdetehsil')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Xaricdə Təhsil</button>
 
                     <button onClick={() => navigateTo('/preschool')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Preschool</button>

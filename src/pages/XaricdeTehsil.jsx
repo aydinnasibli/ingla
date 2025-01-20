@@ -2,7 +2,7 @@ import React from 'react'
 
 function XaricdeTehsil() {
     return (
-        <div>XaricdeTehsil</div>
+        <div></div>
     )
 }
 
