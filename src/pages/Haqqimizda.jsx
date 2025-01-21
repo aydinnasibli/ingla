@@ -1,6 +1,8 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 function Haqqimizda() {
+    const navigate = useNavigate()
+
     return (
         <div>
             <section className="py-24 xl:mr-0 lg:mr-5 mr-0 mb-20">
@@ -70,7 +72,7 @@ function Haqqimizda() {
                                 </div>
                             </div>
                             {/* Read More Button */}
-                            <button className="sm:w-fit w-full group px-4 py-2 bg-gray-50 hover:bg-gray-100 rounded-lg shadow transition-all duration-300 ease-in-out flex justify-center items-center">
+                            <button onClick={() => navigate('/kontakt')} className="sm:w-fit w-full group px-4 py-2 bg-gray-50 hover:bg-gray-100 rounded-lg shadow transition-all duration-300 ease-in-out flex justify-center items-center">
                                 <span className="text-gray-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-300 ease-in-out">
                                     Əlaqə
                                 </span>
