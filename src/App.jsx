@@ -19,6 +19,10 @@ import XaricdeTehsil from './pages/XaricdeTehsil'
 import Haqqimizda from './pages/Haqqimizda'
 import Kontakt from './pages/Kontakt'
 import { AnimatePresence, motion } from 'framer-motion'
+import axios from 'axios'
+
+axios.defaults.baseURL = 'http://localhost:8000'
+axios.defaults.withCredentials = true
 function App() {
   const [count, setCount] = useState(0)
   const location = useLocation()
