@@ -3,7 +3,9 @@ import CarouselMain from '../components/CarouselMain'
 import Faq from '../components/Faq'
 import Testimonials from '../components/Testimontials'
 import logo from '../assets/ingla-logo.png'
+import { useNavigate } from 'react-router-dom'
 function Home() {
+    const navigate = useNavigate()
     return (
         <>
             <div >
@@ -110,7 +112,7 @@ function Home() {
                                     class="font-manrope text-5xl text-gray-900 font-bold leading-[4rem] mb-7 text-center lg:text-left">
                                     Komandamız</h2>
                                 <p class="text-lg text-gray-500 mb-16 text-center lg:text-left">Bu insanlar təhsilimizi yaxşılaşdırmaq üçün çalışırlar.</p>
-                                <button class="cursor-pointer py-3 px-8 w-60 bg-gray-500 text-white text-base font-semibold transition-all duration-500 block text-center rounded-full hover:bg-gray-600 mx-auto lg:mx-0">Daha çox</button>
+                                <button onClick={() => navigate('/haqqimizda')} class="cursor-pointer py-3 px-8 w-60 bg-gray-500 text-white text-base font-semibold transition-all duration-500 block text-center rounded-full hover:bg-gray-600 mx-auto lg:mx-0">Daha çox</button>
                             </div>
                             <div class="w-full lg:w-1/2 lg:mt-0 md:mt-40 mt-16 max-lg:max-w-2xl">
                                 <div class="grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 gap-8">

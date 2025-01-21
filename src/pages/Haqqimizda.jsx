@@ -13,17 +13,14 @@ function Haqqimizda() {
                             <div className="w-full flex-col justify-center items-start gap-8 flex">
                                 <div className="flex-col justify-start lg:items-start items-center gap-4 flex">
                                     <h6 className="text-gray-400 text-base font-normal leading-relaxed">
-                                        About Us
+                                        Haqqımızda
                                     </h6>
                                     <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                                         <h2 className="text-gray-700 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
-                                            The Tale of Our Achievement Story
+                                            Ingla School Baku
                                         </h2>
                                         <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                                            Our achievement story is a testament to teamwork and
-                                            perseverance. Together, we've overcome challenges,
-                                            celebrated victories, and created a narrative of progress
-                                            and success.
+                                            Uğur hekayəmiz komanda işi və səbirin sübutudur. Birlikdə çətinlikləri dəf etmiş, qələbələrimizi qeyd etmiş və irəliləyiş və uğurdan ibarət bir hekayə yaratmışıq.
                                         </p>
                                     </div>
                                 </div>
@@ -33,7 +30,7 @@ function Haqqimizda() {
                                         {/* Box 1 */}
                                         <div className="w-full h-40 p-6 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-300 ease-in-out flex flex-col justify-start items-start gap-2">
                                             <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                                                33+ Years
+                                                33+ İllik təcrübə
                                             </h4>
                                             <p className="text-gray-500 text-base font-normal leading-relaxed">
                                                 Influencing Digital Landscapes Together
@@ -42,7 +39,7 @@ function Haqqimizda() {
                                         {/* Box 2 */}
                                         <div className="w-full h-40 p-6 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-300 ease-in-out flex flex-col justify-start items-start gap-2">
                                             <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                                                125+ Projects
+                                                125+ Müştəri
                                             </h4>
                                             <p className="text-gray-500 text-base font-normal leading-relaxed">
                                                 Excellence Achieved Through Success
@@ -53,7 +50,7 @@ function Haqqimizda() {
                                         {/* Box 3 */}
                                         <div className="w-full h-40 p-6 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-300 ease-in-out flex flex-col justify-start items-start gap-2">
                                             <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                                                26+ Awards
+                                                26+ Filial
                                             </h4>
                                             <p className="text-gray-500 text-base font-normal leading-relaxed">
                                                 Our Dedication to Innovation Wins Understanding
@@ -62,7 +59,7 @@ function Haqqimizda() {
                                         {/* Box 4 */}
                                         <div className="w-full h-40 p-6 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-300 ease-in-out flex flex-col justify-start items-start gap-2">
                                             <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
-                                                99% Happy Clients
+                                                99% Müsbət rəylər
                                             </h4>
                                             <p className="text-gray-500 text-base font-normal leading-relaxed">
                                                 Mirrors our Focus on Client Satisfaction.
