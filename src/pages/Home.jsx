@@ -22,9 +22,9 @@ function Home() {
                         <figure className="mt-10">
                             <blockquote className="text-center  text-xl/8 font-semibold text-gray-900 sm:text-2xl/9">
                                 <p>
-                                    “Təhsil Günəşdir!<br />
+                                    Təhsil Günəşdir!<br />
                                     O sizin gələcək həyatınızı daha da işıqlı edəcək!<br />
-                                    Günəşli sabahlara bizimlə addımla.”
+                                    Günəşli sabahlara bizimlə addımla.
                                 </p>
                             </blockquote>
 
