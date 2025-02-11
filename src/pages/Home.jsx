@@ -61,7 +61,9 @@ function Home() {
                                 </div>
                                 <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Easy Payment</h4>
                                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-                                    We Provide Various Methods For You To Carry Out All Transactions Related To Your Finances
+                                    Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus amet elementum, urna odio cubilia sapien laoreet.
+
+
                                 </p>
                             </div>
                             <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-gray-400">
@@ -71,9 +73,11 @@ function Home() {
                                     </svg>
 
                                 </div>
-                                <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Safe Transaction</h4>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Safe environment</h4>
                                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-                                    We have the most up-to-date security to support the security of all our customers in carrying out all transactions.
+                                    Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus amet elementum, urna odio cubilia sapien laoreet.
+
+
                                 </p>
                             </div>
                             <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-gray-400">
@@ -83,9 +87,11 @@ function Home() {
                                     </svg>
 
                                 </div>
-                                <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Fast Customer Service </h4>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Custom Scheduling </h4>
                                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-                                    Provide Customer Service For Those Of You Who Have Problems 24 Hours A Week
+                                    Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus amet elementum, urna odio cubilia sapien laoreet.
+
+
                                 </p>
                             </div>
                             <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-gray-400">
@@ -95,9 +101,11 @@ function Home() {
                                     </svg>
 
                                 </div>
-                                <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Quick Transaction</h4>
+                                <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Fast Learning</h4>
                                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-                                    We provide faster transaction speeds than competitors, so money arrives and is received faster.
+                                    Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus amet elementum, urna odio cubilia sapien laoreet.
+
+
                                 </p>
                             </div>
                         </div>
