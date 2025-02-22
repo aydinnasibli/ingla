@@ -61,9 +61,10 @@ function CarouselMain() {
                                 }`}
                             style={{
                                 backgroundImage: `url(${slide.url})`,
-                                backgroundSize: 'cover',
+                                backgroundSize: 'contain',
                                 backgroundPosition: 'center',
-                                scale: '0.8',
+                                backgroundRepeat: 'no-repeat',
+
                             }}
                         ></div>
                     ))}
