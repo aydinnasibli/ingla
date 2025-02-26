@@ -1,6 +1,7 @@
 import React from "react";
 import { FaUniversity, FaFileAlt, FaPassport } from "react-icons/fa";
 import StudyAbroad from "../components/StudySection";
+import CampAbroad from "../components/CampAbroad";
 
 function XaricdeTehsil() {
     const steps = [
@@ -57,6 +58,7 @@ function XaricdeTehsil() {
                 </div>
             </div>
             <StudyAbroad />
+            <CampAbroad />
         </section>
     );
 }

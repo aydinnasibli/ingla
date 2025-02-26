@@ -20,6 +20,7 @@ import Haqqimizda from './pages/Haqqimizda'
 import Kontakt from './pages/Kontakt'
 import { AnimatePresence, motion } from 'framer-motion'
 import axios from 'axios'
+import TrainingCenter from './pages/TrainingCenter'
 
 axios.defaults.baseURL = 'http://localhost:8000'
 axios.defaults.withCredentials = true
@@ -225,6 +226,21 @@ function App() {
                 }}
               >
                 <Haqqimizda />
+              </motion.div>
+            } />
+            <Route path="/training" element={
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 100 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 80, // Lower stiffness for softer motion
+                  damping: 15,   // Higher damping to avoid excessive bounciness
+                  opacity: { duration: 0.6 }, // Ensure opacity changes are smooth and sync well
+                }}
+              >
+                <TrainingCenter />
               </motion.div>
             } />
             <Route path="/kontakt" element={

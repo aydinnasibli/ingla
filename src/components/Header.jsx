@@ -90,6 +90,8 @@ export default function Header() {
                     </div>
 
                     <button onClick={() => navigateTo('/haqqimizda')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Haqqımızda</button>
+                    <button onClick={() => navigateTo('/training')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Təlim Mərkəzi</button>
+
                     <button onClick={() => navigateTo('/kontakt')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Əlaqə</button>
                     <button onClick={() => navigateTo('/xaricdetehsil')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Xaricdə Təhsil</button>
                     <button onClick={() => navigateTo('/preschool')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Preschool</button>
@@ -150,6 +152,7 @@ export default function Header() {
                                     </ul>
                                 </details>
                                 <button onClick={() => navigateTo('/haqqimizda')} className='-mx-3 block rounded-lg px-3 py-2'>Haqqımızda</button>
+                                <button onClick={() => navigateTo('/training')} className='-mx-3 block rounded-lg px-3 py-2'>Təlim Mərkəzi</button>
                                 <button onClick={() => navigateTo('/kontakt')} className='-mx-3 block rounded-lg px-3 py-2'>Kontakt</button>
                                 <button onClick={() => navigateTo('/xaricdetehsil')} className='-mx-3 block rounded-lg px-3 py-2'>Xaricdə Təhsil</button>
                                 <button onClick={() => navigateTo('/preschool')} className='-mx-3 block rounded-lg px-3 py-2'>Preschool</button>

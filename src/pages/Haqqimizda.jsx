@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import AboutUs from "../components/AboutUs";
 function Haqqimizda() {
     const navigate = useNavigate()
 
@@ -104,6 +105,7 @@ function Haqqimizda() {
                     </div>
                 </div>
             </section>
+            <AboutUs />
         </div>
     );
 }

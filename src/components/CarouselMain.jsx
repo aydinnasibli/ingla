@@ -65,6 +65,7 @@ function CarouselMain() {
                                 backgroundPosition: 'center',
                                 backgroundRepeat: 'no-repeat',
 
+
                             }}
                         ></div>
                     ))}
