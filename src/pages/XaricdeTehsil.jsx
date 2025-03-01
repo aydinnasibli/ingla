@@ -2,6 +2,7 @@ import React from "react";
 import { FaUniversity, FaFileAlt, FaPassport } from "react-icons/fa";
 import StudyAbroad from "../components/StudySection";
 import CampAbroad from "../components/CampAbroad";
+import Professionals from "../components/Professionals";
 
 function XaricdeTehsil() {
     const steps = [
@@ -29,8 +30,10 @@ function XaricdeTehsil() {
     ];
 
     return (
-        <section className="py-24 bg-gray-50">
+        <section className="py-24 ">
             <div className="max-w-7xl px-6 md:px-12 lg:px-16 mx-auto">
+                <StudyAbroad />
+
                 {/* Title Section */}
                 <div className="text-center">
                     <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-snug">
@@ -57,8 +60,9 @@ function XaricdeTehsil() {
                     ))}
                 </div>
             </div>
-            <StudyAbroad />
             <CampAbroad />
+            <Professionals />
+
         </section>
     );
 }

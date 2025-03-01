@@ -34,7 +34,7 @@ function Haqqimizda() {
                                                 33+ İllik təcrübə
                                             </h4>
                                             <p className="text-gray-500 text-base font-normal leading-relaxed">
-                                                Influencing Digital Landscapes Together
+                                                Influencing Education Together
                                             </p>
                                         </div>
                                         {/* Box 2 */}

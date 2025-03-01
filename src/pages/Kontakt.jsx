@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { MdEmail } from 'react-icons/md'
 import axios from 'axios'
+import office from '../assets/office.png'
 function Kontakt() {
 
     const [data, setData] = useState({
@@ -23,7 +24,7 @@ function Kontakt() {
                         <div className="group w-full h-full">
                             <div className="relative h-full">
                                 <img
-                                    src="https://pagedone.io/asset/uploads/1696488602.png"
+                                    src={office}
                                     alt="ContactUs tailwind section"
                                     className="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-gray-700 object-cover"
                                 />

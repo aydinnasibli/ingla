@@ -104,7 +104,7 @@ function StudyAbroad() {
 
     return (
         <>
-            <section className="py-24">
+            <section className="">
                 <div className="max-w-7xl px-6 md:px-12 lg:px-16 mx-auto">
                     {/* Başlıq Bölməsi */}
                     <div className="text-center">
@@ -166,7 +166,6 @@ function StudyAbroad() {
                         </div>
                     )}
                 </div>
-                <Professionals />
             </section>
         </>
     );

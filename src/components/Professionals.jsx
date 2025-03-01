@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const professionals = [
     {
         name: "Elvin Qasımov",
-        photo: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", // Placeholder photo
+        photo: "https://i.imghippo.com/files/ue5120no.jpg", // Placeholder photo
         contact: {
             email: "elvin@example.com",
             phone: "+994 50 123 45 67",
@@ -14,7 +14,7 @@ const professionals = [
     },
     {
         name: "Nigar Məmmədova",
-        photo: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", // Placeholder photo
+        photo: "https://i.imghippo.com/files/ue5120no.jpg", // Placeholder photo
         contact: {
             email: "nigar@example.com",
             phone: "+994 50 234 56 78",
@@ -24,7 +24,7 @@ const professionals = [
     },
     {
         name: "Ramin Hüseynov",
-        photo: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2", // Placeholder photo
+        photo: "https://i.imghippo.com/files/ue5120no.jpg", // Placeholder photo
         contact: {
             email: "ramin@example.com",
             phone: "+994 50 345 67 89",
@@ -46,7 +46,7 @@ function Professionals() {
     };
 
     return (
-        <section className="py-24 bg-gray-50">
+        <section className="py-12 bg-gray-50">
             <div className="max-w-7xl px-6 md:px-12 lg:px-16 mx-auto">
                 {/* Title Section */}
                 <div className="text-center">

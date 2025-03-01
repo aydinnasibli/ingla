@@ -1,75 +1,66 @@
 import React from "react";
 
 const AboutUs = () => {
-    const timeline = [
-        { year: "2020", title: "Şirkətimizin təməli qoyuldu", desc: "Biznes fəaliyyətinə başladıq və ilk müştərilərimizi qazandıq." },
-        { year: "2021", title: "İlk Böyük Layihəmiz", desc: "Böyük müştəri bazası ilə uğurlu əməkdaşlıq qurduq." },
-        { year: "2022", title: "Genişlənmə", desc: "Yeni xidmətlər əlavə etdik və komandamızı böyütdük." },
-        { year: "2023", title: "Beynəlxalq Tərəfdaşlıqlar", desc: "Beynəlxalq bazara çıxdıq və qlobal müştərilər əldə etdik." },
-        { year: "2024", title: "İnnovativ Layihələr", desc: "Yeni texnologiyalar tətbiq edərək daha güclü həllər yaratdıq." },
-    ];
-
-    const values = [
-        { title: "Müştəri Üstünlüyü", desc: "Müştərilərimizin ehtiyaclarına uyğun həllər təqdim edirik.", image: "https://via.placeholder.com/200" },
-        { title: "İnnovasiya", desc: "Yeni texnologiyalar və yanaşmalarla daim inkişaf edirik.", image: "https://via.placeholder.com/200" },
-        { title: "Etibarlılıq", desc: "Şəffaf və dürüst əməkdaşlıq bizim əsas dəyərlərimizdəndir.", image: "https://via.placeholder.com/200" },
-        { title: "Keyfiyyət", desc: "Təqdim etdiyimiz xidmətlərdə ən yüksək standartlara riayət edirik.", image: "https://via.placeholder.com/200" },
-    ];
-
-    const partners = [
-        { name: "Google", logo: "https://via.placeholder.com/100" },
-        { name: "Microsoft", logo: "https://via.placeholder.com/100" },
-        { name: "Amazon", logo: "https://via.placeholder.com/100" },
-        { name: "Tesla", logo: "https://via.placeholder.com/100" },
-    ];
-
     return (
-        <div className="p-8 max-w-7xl mx-auto space-y-16">
+        <div className="p-8 max-w-6xl mx-auto space-y-16 text-gray-800">
+            {/* Vizyonumuz */}
+            <section className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-gray-400">
+                <h2 className="text-3xl font-semibold">Vizyonumuz</h2>
+                <p className="mt-4 leading-relaxed">
+                    Biz gələcəyin innovativ və dayanıqlı inkişafına töhfə verən lider şirkət olmaq istəyirik. Texnologiya və təhsili birləşdirərək, müştərilərimizə və cəmiyyətə dəyər qatan həllər təqdim etməyi hədəfləyirik.
+                    Qlobal bazarda güclü mövqe tutaraq, beynəlxalq əməkdaşlıqları genişləndirmək, insan kapitalının inkişafına töhfə vermək və rəqabətə davamlı mütəxəssislər yetişdirmək bizim əsas məqsədlərimizdəndir.
+                    Daim yeniliklərə açıq, müştərilərimizin ehtiyaclarına uyğun fərdi yanaşma təqdim edən və etik prinsiplərə sadiq qalan bir şirkət olaraq, şəffaflıq, dürüstlük və yüksək keyfiyyəti prioritet tutaraq daha parlaq gələcək üçün çalışırıq
+                </p>
+
+            </section>
+
             {/* Missiyamız */}
-            <section className="text-center space-y-6 max-w-3xl mx-auto">
-                <h2 className="text-4xl font-bold">Missiyamız</h2>
-                <p className="text-gray-600 text-lg">Biz müştərilərimiz üçün ən yaxşı həlləri yaratmaq və texnologiya vasitəsilə bizneslərini inkişaf etdirmək üçün çalışırıq.
-                    Biznes dünyasında yenilikləri tətbiq edərək, insanlara və müəssisələrə daha səmərəli və keyfiyyətli xidmətlər təqdim etməyi hədəfləyirik.
-                    Texnologiyanın gücündən istifadə edərək, innovasiyaları həyatımıza gətirir və dayanıqlı inkişaf üçün çalışırıq.</p>
-                <p className="text-gray-600 text-lg">Gələcəkdə qlobal bazarda daha geniş yer tutmaq, yeni tərəfdaşlıqlar qurmaq və cəmiyyət üçün faydalı layihələr yaratmaq bizim əsas məqsədlərimizdən biridir.</p>
+            <section className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-gray-400">
+                <h2 className="text-3xl font-semibold">Missiyamız</h2>
+                <p className="mt-4 leading-relaxed">
+                    Biz texnologiya və innovasiyaların gücündən istifadə edərək müştərilərimizə ən yaxşı həlləri təqdim etməyə və onların bizneslərini inkişaf etdirməyə çalışırıq. Yenilikçi yanaşmalarımızla insanlara və müəssisələrə daha səmərəli, keyfiyyətli və dayanıqlı xidmətlər göstərməyi hədəfləyirik.
+                    Eyni zamanda, beynəlxalq əməkdaşlıqlar quraraq, müasir və keyfiyyətli təhsil imkanları yaratmaq, fərdlərin akademik və peşəkar inkişafını dəstəkləmək və qlobal miqyasda rəqabətə davamlı mütəxəssislər yetişdirmək üçün çalışırıq. Təhsil sahəsində innovativ həllər və metodlar tətbiq edərək fərdi inkişafı stimullaşdırmaq əsas məqsədlərimizdən biridir.
+
+                </p>
+                <p className="mt-4 leading-relaxed">
+                    Gələcəkdə qlobal bazarda daha geniş yer tutmaq, yeni tərəfdaşlıqlar qurmaq və cəmiyyət üçün faydalı layihələr həyata keçirməklə, texnologiya və təhsili bir araya gətirərək daha parlaq gələcək üçün çalışırıq.
+
+                </p>
             </section>
 
-            {/* Hədəflərimiz - New Section Design */}
+            {/* Hədəflərimiz */}
             <section>
-                <h2 className="text-4xl font-bold text-center mb-12">Hədəflərimiz</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {timeline.map((item, index) => (
-                        <div key={index} className="p-6 border rounded-lg shadow-sm hover:shadow-lg transition">
-                            <div className="text-3xl font-bold text-blue-600 mb-2">{item.year}</div>
-                            <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                            <p className="text-gray-600">{item.desc}</p>
-                        </div>
-                    ))}
-                </div>
-            </section>
-
-            {/* Dəyərlərimiz - New Approach with Images */}
-            <section>
-                <h2 className="text-4xl font-bold text-center mb-12">Dəyərlərimiz</h2>
+                <h2 className="text-3xl font-semibold text-center mb-8">Hədəflərimiz</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {values.map((value, index) => (
-                        <div key={index} className="flex flex-col items-center p-6 border rounded-lg shadow-sm hover:shadow-lg transition">
-                            <img src={value.image} alt={value.title} className="w-32 h-32 object-cover rounded-full mb-4" />
-                            <h3 className="text-2xl font-semibold mb-2">{value.title}</h3>
-                            <p className="text-gray-600 text-center">{value.desc}</p>
+                    {[
+                        { title: "Qlobal Mövqe və İnkişaf", desc: "Şirkət olaraq qlobal bazarda daha geniş yer tutmağı və beynəlxalq əməkdaşlıqlar qurmağı hədəfləyirik." },
+                        { title: "Müştəri Məmnuniyyəti və Keyfiyyət", desc: "Keyfiyyətə verdiyimiz önəm sayəsində, ən effektiv və etibarlı həlləri təqdim etməyə sadiqik." },
+                        { title: "İnnovasiya və Fərdi Yanaşma", desc: "Daim yenilənən texnologiyalar vasitəsilə fərdi yanaşmanı əsas götürərək xüsusi həllər hazırlayırıq." },
+                        { title: "Dəyər yaratmaq", desc: "Cəmiyyət qarşısında məsuliyyətli yanaşmanı qoruyaraq dayanıqlı inkişafı təmin etməyə çalışırıq." }
+                    ].map((item, index) => (
+                        <div key={index} className="p-6 border transition-all duration-300 ease-in-out border-gray-200 rounded-2xl shadow-sm hover:border-gray-400 ">
+                            <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+                            <p className="text-gray-700">{item.desc}</p>
                         </div>
                     ))}
                 </div>
             </section>
 
-            {/* Tərəfdaşlarımız */}
+            {/* Dəyərlərimiz */}
             <section>
-                <h2 className="text-4xl font-bold text-center mb-12">Tərəfdaşlarımız</h2>
-                <div className="flex flex-wrap justify-center gap-8">
-                    {partners.map((partner, index) => (
-                        <div key={index} className="flex flex-col items-center border rounded-lg p-4 hover:shadow-lg transition w-40">
-                            <img src={partner.logo} alt={partner.name} className="w-20 h-20 rounded-full mb-2" />
-                            <p className="text-lg font-semibold">{partner.name}</p>
+                <h2 className="text-3xl font-semibold text-center mb-8">Dəyərlərimiz</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {[
+                        { title: "Keyfiyyət", desc: "Təhsil və təqdim etdiyimiz xidmətlərdə yüksək standartları qoruyuruq." },
+                        { title: "İnnovasiya", desc: "Yenilikçi metodlar və texnologiyalardan istifadə edərək daim inkişaf edirik." },
+                        { title: "Fərdi yanaşma", desc: "Hər insanın və müəssisənin ehtiyaclarına uyğun fərdi həllər hazırlayırıq." },
+                        { title: "Beynəlxalq əməkdaşlıq", desc: "Akademik və biznes tərəfdaşlıqlar quraraq qlobal rəqabətə davamlı mütəxəssislər yetişdiririk." },
+                        { title: "Məsuliyyətlilik", desc: "Cəmiyyət və fərdlər qarşısında etik və sosial məsuliyyətimizi qoruyuruq." },
+                        { title: "Şəffaflıq və dürüstlük", desc: "Müştərilərimizlə açıq və etibarlı əməkdaşlıq qururuq." }
+                    ].map((value, index) => (
+                        <div key={index} className="p-6 border transition-all duration-300 ease-in-out border-gray-200 rounded-2xl shadow-sm hover:border-gray-400 ">
+                            <h3 className="text-xl font-semibold mb-2">{value.title}</h3>
+                            <p className="text-gray-700">{value.desc}</p>
                         </div>
                     ))}
                 </div>
