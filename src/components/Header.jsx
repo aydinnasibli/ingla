@@ -62,7 +62,7 @@ export default function Header() {
                                 setIsDropdownOpen((prevState) => !prevState);
                             }}
                         >
-                            Xidmətlər
+                            Tədris İstiqamətlərimiz
                             <svg
                                 className="ml-2 w-4 h-4 transform transition-transform duration-200"
                                 xmlns="http://www.w3.org/2000/svg"
@@ -124,10 +124,10 @@ export default function Header() {
                     </div>
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
-                            <div className="space-y-2 py-6">
+                            <div className="space-y-2 py-4">
                                 <details className="dropdown">
                                     <summary className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer flex items-center">
-                                        Xidmətlər
+                                        Tədris İstiqamətlərimiz
                                         <svg
                                             className="ml-2 w-4 h-4 transform transition-transform duration-200"
                                             xmlns="http://www.w3.org/2000/svg"

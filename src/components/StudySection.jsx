@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Professionals from "./Professionals";
 
 function StudyAbroad() {
     const [isModalOpen, setIsModalOpen] = useState(false);
