@@ -98,7 +98,6 @@ export default function Header() {
 
                     <button onClick={() => navigateTo('/xaricdetehsil')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Xaricdə Təhsil</button>
                     <button onClick={() => navigateTo('/preschool')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Preschool</button>
-                    <button onClick={() => navigateTo('/kontakt')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Əlaqə</button>
 
                 </PopoverGroup>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -165,7 +164,6 @@ export default function Header() {
 
                                 <button onClick={() => navigateTo('/xaricdetehsil')} className='-mx-3 block rounded-lg px-3 py-2'>Xaricdə Təhsil</button>
                                 <button onClick={() => navigateTo('/preschool')} className='-mx-3 block rounded-lg px-3 py-2'>Preschool</button>
-                                <button onClick={() => navigateTo('/kontakt')} className='-mx-3 block rounded-lg px-3 py-2'>Əlaqə</button>
 
                             </div>
                             <div className="py-6">

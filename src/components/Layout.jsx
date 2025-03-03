@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import ContactPageButton from './ContactPageButton'
 
 function Layout({ children }) {
     return (
@@ -11,6 +12,7 @@ function Layout({ children }) {
                 </header>
                 <main>
                     {children}
+                    <ContactPageButton />
                 </main>
                 <footer>
                     <Footer />
