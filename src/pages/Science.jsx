@@ -1,9 +1,9 @@
 import React from 'react'
 
-function OnlySpeaking() {
+function Science() {
     return (
         <div >
-            <p className='text-center  text-4xl mt-10'>Only Speaking</p>
+            <p className='text-center  text-4xl mt-10'>Science</p>
             <p></p>
             <section class="py-14 lg:py-24 relative">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
@@ -16,9 +16,9 @@ function OnlySpeaking() {
                             <div class="data w-full">
                                 <h2
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                                    Only Speaking </h2>
+                                    Science </h2>
                                 <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                    OnlySpeaking kursları, yalnız danışıq bacarıqlarını inkişaf etdirməyə yönəlmiş intensiv proqramdır. Bu kursda əsas məqsəd, tələbələrin ingilis dilində daha sərbəst və inamlı şəkildə danışmasını təmin etməkdir. Tədris yalnız şifahi ünsiyyətə fokuslanır və tələbələrə gündəlik həyatda, iş mühitində və sosial şəraitdə özlərini rahat ifadə etməyə kömək edir. Aktiv iştirak və interaktiv məşqlərlə hər bir tələbə öz danışıq bacarıqlarını qısa müddət ərzində artırır.
+                                    Elm kurslarımız tələbələrə təbiət elmləri sahəsində dərin biliklər və praktiki bacarıqlar qazandırmağa yönəlib. Kimya, biologiya, fizika və digər sahələr üzrə tədris, həm nəzəri, həm də praktiki yanaşmalarla aparılır. IB, AP və IGCSE kimi beynəlxalq proqramlar, tələbələrə geniş elmi anlayışlar təqdim edərək, gələcəkdə elmi sahələrdə uğurlu karyera qurmağa hazırlaşdırır. Uşaqlar üçün xüsusi olaraq hazırlanmış proqramlar isə elmi mövzuları əyləncəli və asan başa düşülən şəkildə təqdim edir, onların marağını artırır və təbiət hadisələrini kəşf etməyə imkan verir.
                                 </p>
                             </div>
                         </div>
@@ -33,11 +33,11 @@ function OnlySpeaking() {
                                 <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
                                     class="block lg:hidden mb-9 mx-auto object-cover" />
                                 <ul className="list-disc space-y-6  pl-6 text-xl text-gray-500 max-w-2xl mx-auto">
-                                    <li>OnlySpeaking kursları yalnız danışıq bacarıqlarına fokuslanaraq tədris edilir.</li>
-                                    <li>Gündəlik həyatda və iş mühitində ingilis dilində sərbəst ünsiyyət qurmaq üçün praktiki dərslər təklif olunur.</li>
-                                    <li>Tədris interaktivdir və tələbələrin aktiv iştirakını təmin edir.</li>
-                                    <li>Danışıq bacarıqlarını sürətlə inkişaf etdirmək üçün xüsusi hazırlanmış proqramlar mövcuddur.</li>
-                                    <li>Tələbələrə ingilis dilində inamla danışmaq və öz fikirlərini düzgün ifadə etmək öyrədilir.</li>
+                                    <li>Kimya, biologiya və fizika üzrə tədris ilə əsas elmi sahələrdə biliklər əldə etmək.</li>
+                                    <li>IB, AP və IGCSE proqramları vasitəsilə elmi sahədə dərin təhsil.</li>
+                                    <li>Praktiki yanaşmalarla tələbələrin təcrübə bacarıqlarını inkişaf etdirmək.</li>
+                                    <li>Uşaqlar üçün əyləncəli və interaktiv elmi dərslər təklif olunur.</li>
+                                    <li>Gələcək karyera üçün elmi sahələrdə əsas bacarıqları əldə etmək.</li>
 
 
                                 </ul>
@@ -238,4 +238,4 @@ function OnlySpeaking() {
     )
 }
 
-export default OnlySpeaking
+export default Science

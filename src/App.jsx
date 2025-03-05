@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/Home'
+import OverAllMath from './pages/OverALLMATH'
+import Yos from './pages/YOS'
+import Science from './pages/Science'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Layout from './components/Layout'
 import GeneralEnglish from './pages/GeneralEnglish'
 import Cambridge from './pages/Cambridge'
 import SatVerbal from './pages/SatVerbal'
-import SatMath from './pages/SatMath'
 import Duolingo from './pages/Duolingo'
 import AdaSchool from './pages/AdaSchool'
 import Intensiv from './pages/Intensiv'
@@ -81,6 +83,36 @@ function App() {
                 <Cambridge />
               </motion.div>
             } />
+            <Route path="/science" element={
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 100 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 80, // Lower stiffness for softer motion
+                  damping: 15,   // Higher damping to avoid excessive bounciness
+                  opacity: { duration: 0.6 }, // Ensure opacity changes are smooth and sync well
+                }}
+              >
+                <Science />
+              </motion.div>
+            } />
+            <Route path="/yos" element={
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 100 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 80, // Lower stiffness for softer motion
+                  damping: 15,   // Higher damping to avoid excessive bounciness
+                  opacity: { duration: 0.6 }, // Ensure opacity changes are smooth and sync well
+                }}
+              >
+                <Yos />
+              </motion.div>
+            } />
             <Route path="/satverbal" element={
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
@@ -96,7 +128,7 @@ function App() {
                 <SatVerbal />
               </motion.div>
             } />
-            <Route path="/satmath" element={
+            <Route path="/allmath" element={
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -108,7 +140,7 @@ function App() {
                   opacity: { duration: 0.6 }, // Ensure opacity changes are smooth and sync well
                 }}
               >
-                <SatMath />
+                <OverAllMath />
               </motion.div>
             } />
             <Route path="/duolingo" element={

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function OnlySpeaking() {
+function Yos() {
     return (
         <div >
-            <p className='text-center  text-4xl mt-10'>Only Speaking</p>
+            <p className='text-center  text-4xl mt-10'>Yös</p>
             <p></p>
             <section class="py-14 lg:py-24 relative">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
@@ -16,9 +16,11 @@ function OnlySpeaking() {
                             <div class="data w-full">
                                 <h2
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                                    Only Speaking </h2>
+                                    Yös </h2>
                                 <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                    OnlySpeaking kursları, yalnız danışıq bacarıqlarını inkişaf etdirməyə yönəlmiş intensiv proqramdır. Bu kursda əsas məqsəd, tələbələrin ingilis dilində daha sərbəst və inamlı şəkildə danışmasını təmin etməkdir. Tədris yalnız şifahi ünsiyyətə fokuslanır və tələbələrə gündəlik həyatda, iş mühitində və sosial şəraitdə özlərini rahat ifadə etməyə kömək edir. Aktiv iştirak və interaktiv məşqlərlə hər bir tələbə öz danışıq bacarıqlarını qısa müddət ərzində artırır.
+                                    YÖS (Yabancı Öğrenci Sınavı) kurslarımız, xarici tələbələrin Türkiyədəki universitetlərə qəbul olmasına hazırlıq məqsədini daşıyır. Bu kurs, YÖS imtahanının xüsusiyyətlərini öyrənmək, test formatına uyğunlaşdırılmış praktiki məşqlər aparmaq və şagirdlərin riyaziyyat, məntiq və türk dili bacarıqlarını inkişaf etdirmək üçün nəzərdə tutulub. Kursda intensiv tədris metodu istifadə olunur və tələbələrin imtahanın hər hissəsinə müvafiq hazırlıq alması təmin edilir. YÖS kursları tələbələri imtahana hazırlayarkən yüksək nəticələr əldə etmələrinə kömək edir və onları Türkiyədəki universitetlərə qəbul olmaq üçün lazım olan biliklərlə təmin edir.
+
+
                                 </p>
                             </div>
                         </div>
@@ -33,11 +35,11 @@ function OnlySpeaking() {
                                 <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
                                     class="block lg:hidden mb-9 mx-auto object-cover" />
                                 <ul className="list-disc space-y-6  pl-6 text-xl text-gray-500 max-w-2xl mx-auto">
-                                    <li>OnlySpeaking kursları yalnız danışıq bacarıqlarına fokuslanaraq tədris edilir.</li>
-                                    <li>Gündəlik həyatda və iş mühitində ingilis dilində sərbəst ünsiyyət qurmaq üçün praktiki dərslər təklif olunur.</li>
-                                    <li>Tədris interaktivdir və tələbələrin aktiv iştirakını təmin edir.</li>
-                                    <li>Danışıq bacarıqlarını sürətlə inkişaf etdirmək üçün xüsusi hazırlanmış proqramlar mövcuddur.</li>
-                                    <li>Tələbələrə ingilis dilində inamla danışmaq və öz fikirlərini düzgün ifadə etmək öyrədilir.</li>
+                                    <li>YÖS imtahanı üçün riyaziyyat, məntiq və türk dili üzrə intensiv hazırlıq.</li>
+                                    <li>İmtahanın formatına uyğun praktiki məşqlər və testlər.</li>
+                                    <li>Xarici tələbələrin Türkiyədəki universitetlərə qəbul olması üçün xüsusi proqramlar.</li>
+                                    <li>Təcrübəli müəllimlər və fərdi yanaşma ilə dərs planı.</li>
+                                    <li>Yüksək nəticə əldə etməyə və Türkiyədəki universitetlərə qəbul olmağa zəmanət.</li>
 
 
                                 </ul>
@@ -238,4 +240,4 @@ function OnlySpeaking() {
     )
 }
 
-export default OnlySpeaking
+export default Yos

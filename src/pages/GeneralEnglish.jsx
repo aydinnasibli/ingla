@@ -48,21 +48,21 @@ function GeneralEnglish() {
                     </div>
                 </div>
             </section>
-            <section className="py-24">
+            <section className="py-24 ">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mb-14 text-center">
                         <span className="py-1 px-4 bg-indigo-100 rounded-full text-xs font-medium text-indigo-600 text-center">
                             Xüsusiyyətlər
                         </span>
                         <h2 className="text-4xl text-center font-bold text-gray-900 py-5">
-                            Fərqimiz
+                            Hazırlıq Metodumuz
                         </h2>
                         <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
-                            Vaxt izləmə, üçüncü tərəf proqramları (təqvim / Google drive) ilə inteqrasiya, alt tapşırıqlar yaratmaq kimi qabaqcıl xüsusiyyətləri təmin edir.
+                            Müasir və innovativ metodlarla uşaqların ingilis dilini rahat, əyləncəli və effektiv şəkildə öyrənməsini təmin edirik.
                         </p>
                     </div>
                     <div className="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
-                        <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                        <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-indigo-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-indigo-600">
                                 <svg
                                     className="stroke-indigo-600 transition-all duration-500 group-hover:stroke-white"
@@ -81,13 +81,12 @@ function GeneralEnglish() {
                                     />
                                 </svg>
                             </div>
-                            <h4 className="text-lg font-medium text-gray-900 mb-3 capitalize">
-                                Onlayn və Əyani Format – Rahatlığınıza uyğun dərs seçimi.
-
+                            <h4 className="text-lg font-medium text-gray-900 mb-3">
+                                Əyləncəli və İnteraktiv Yanaşma
                             </h4>
-
+                            <p className="text-base text-gray-500">Oyunlar, musiqi, rəsm və digər kreativ fəaliyyətlərlə dil öyrənməyi əyləncəli edirik.</p>
                         </div>
-                        <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                        <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-pink-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-pink-600">
                                 <svg
                                     className="stroke-pink-600 transition-all duration-500 group-hover:stroke-white"
@@ -119,12 +118,12 @@ function GeneralEnglish() {
                                     />
                                 </svg>
                             </div>
-                            <h4 className="text-lg font-medium text-gray-900 mb-3 capitalize">
-                                Həftədə 2-3 dəfə, 60-90 dəqiqəlik dərslər – Effektiv və davamlı hazırlıq üçün.
+                            <h4 className="text-lg font-medium text-gray-900 mb-3">
+                                Yaşlara Uyğun Tədris
                             </h4>
-
+                            <p className="text-base text-gray-500">Hər yaşa uyğun proqramlar, sadə və asan başa düşülən metodlarla dərslər.</p>
                         </div>
-                        <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
+                        <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-teal-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-teal-600">
                                 <svg
                                     className="stroke-teal-600 transition-all duration-500 group-hover:stroke-white"
@@ -142,15 +141,97 @@ function GeneralEnglish() {
                                     />
                                 </svg>
                             </div>
-                            <h4 className="text-lg font-medium text-gray-900 mb-3 capitalize">
-                                Fərdi İzləmə və Rəy – Hər tələbənin inkişafı izlənilir və irəliləyişə uyğun fərdi rəy
+                            <h4 className="text-lg font-medium text-gray-900 mb-3">
+                                Təkrarlama və Təcrübə
                             </h4>
-
+                            <p className="text-base text-gray-500">Uşaqların öyrəndiklərini gündəlik həyatda istifadə etmələri üçün təkrarlanan fəaliyyətlər.</p>
                         </div>
-
+                        <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
+                            <div className="bg-amber-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-amber-600">
+                                <svg
+                                    className="stroke-amber-600 transition-all duration-500 group-hover:stroke-white"
+                                    width={30}
+                                    height={30}
+                                    viewBox="0 0 30 30"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M12.5 15H17.5M12.5 20H17.5M22.5 27.5H7.5C6.11929 27.5 5 26.3807 5 25V5C5 3.61929 6.11929 2.5 7.5 2.5H16.7172C17.2475 2.5 17.7566 2.71071 18.1316 3.08579L24.9142 9.86843C25.2893 10.2434 25.5 10.7525 25.5 11.2828V25C25.5 26.3807 24.3807 27.5 22.5 27.5Z"
+                                        stroke=""
+                                        strokeWidth={2}
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <h4 className="text-lg font-medium text-gray-900 mb-3">
+                                Peşəkar Müəllimlər
+                            </h4>
+                            <p className="text-base text-gray-500">Uşaqlarla işləməkdə təcrübəsi olan müəllimlər ilə dərslər.</p>
+                        </div>
+                        <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
+                            <div className="bg-purple-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-purple-600">
+                                <svg
+                                    className="stroke-purple-600 transition-all duration-500 group-hover:stroke-white"
+                                    width={30}
+                                    height={30}
+                                    viewBox="0 0 30 30"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M10 5H20M10 5C8.11438 5 7.17157 5 6.58579 5.58579C6 6.17157 6 7.11438 6 9V23C6 24.8856 6 25.8284 6.58579 26.4142C7.17157 27 8.11438 27 10 27H20C21.8856 27 22.8284 27 23.4142 26.4142C24 25.8284 24 24.8856 24 23V9C24 7.11438 24 6.17157 23.4142 5.58579C22.8284 5 21.8856 5 20 5M10 5V7C10 8.10457 10.8954 9 12 9H18C19.1046 9 20 8.10457 20 7V5M13.75 16.25L15 17.5L18.75 13.75"
+                                        stroke=""
+                                        strokeWidth={2}
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <h4 className="text-lg font-medium text-gray-900 mb-3">
+                                Fərdi Yanaşma
+                            </h4>
+                            <p className="text-base text-gray-500">Hər bir uşağın öz sürətinə uyğun dərslər və inkişaf izləmə.</p>
+                        </div>
                     </div>
                 </div>
             </section>
+
+            <section className="py-14 bg-gray-50">
+                <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-10">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">📅 Dərslər Necə Keçirilir?</h2>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div className="bg-white p-6 rounded-lg shadow-sm">
+                            <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
+                                <span className="text-indigo-600 text-xl">✔️</span>
+                            </div>
+                            <h3 className="text-xl font-semibold mb-2 text-center">Onlayn və Əyani Dərslər</h3>
+                            <p className="text-gray-600 text-center">Uşaqların rahatlığına uyğun olaraq dərslər keçirilir.</p>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-lg shadow-sm">
+                            <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
+                                <span className="text-indigo-600 text-xl">✔️</span>
+                            </div>
+                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2-3 dəfə, 60 dəqiqəlik dərslər</h3>
+                            <p className="text-gray-600 text-center">Uşaqların diqqətini cəlb edəcək müddətdə intensiv dərslər.</p>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-lg shadow-sm">
+                            <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
+                                <span className="text-indigo-600 text-xl">✔️</span>
+                            </div>
+                            <h3 className="text-xl font-semibold mb-2 text-center">Davamlı Rəy və İzləmə</h3>
+                            <p className="text-gray-600 text-center">Uşaqların inkişafını izləyirik və müntəzəm olaraq geri dönürük.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
 
         </div>
     )

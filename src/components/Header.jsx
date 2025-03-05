@@ -77,9 +77,8 @@ export default function Header() {
                             <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow absolute mt-2">
                                 <li onClick={() => navigateTo('/generalenglish')}><a>General English</a></li>
                                 <li onClick={() => navigateTo('/kids')}><a>Kids English</a></li>
-                                {/* <li onClick={() => navigateTo('/ibvecambridgemath')}><a>IB və Cambdridge math</a></li> */}
-                                {/* <li onClick={() => navigateTo('/satverbal')}><a>Sat Verbal</a></li>
-                                <li onClick={() => navigateTo('/satmath')}><a>Sat Math</a></li>
+                                <li onClick={() => navigateTo('/ibvecambridgemath')}><a>IB və Cambdridge </a></li>
+                                <li onClick={() => navigateTo('/satverbal')}><a>Sat Verbal</a></li>
                                 <li onClick={() => navigateTo('/duolingo')}><a>Duolingo</a></li>
                                 <li onClick={() => navigateTo('/adaschool')}><a>Ada School</a></li>
                                 <li onClick={() => navigateTo('/intensiv')}><a>İntensiv</a></li>
@@ -87,7 +86,12 @@ export default function Header() {
                                 <li onClick={() => navigateTo('/almandili')}><a>Alman dili</a></li>
                                 <li onClick={() => navigateTo('/kids')}><a>Kids English</a></li>
                                 <li onClick={() => navigateTo('/rusdili')}><a>Rus Dili</a></li>
-                                <li onClick={() => navigateTo('/onlyspeaking')}><a>Only Speaking</a></li> */}
+                                <li onClick={() => navigateTo('/onlyspeaking')}><a>Only Speaking</a></li>
+                                <li onClick={() => navigateTo('/allmath')}><a>Math</a></li>
+                                <li onClick={() => navigateTo('/yos')}><a>Yös</a></li>
+                                <li onClick={() => navigateTo('/science')}><a>Science</a></li>
+
+
 
                             </ul>
                         )}
@@ -145,17 +149,19 @@ export default function Header() {
                                     <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                                         <li onClick={() => navigateTo('/generalenglish')}><a>General English</a></li>
                                         <li onClick={() => navigateTo('/kids')}><a>Kids English</a></li>
-                                        {/* <li onClick={() => navigateTo('/ibvecambridgemath')}><a>IB və Cambdridge math</a></li>
+                                        <li onClick={() => navigateTo('/ibvecambridgemath')}><a>IB və Cambdridge </a></li>
                                         <li onClick={() => navigateTo('/satverbal')}><a>Sat Verbal</a></li>
-                                        <li onClick={() => navigateTo('/satmath')}><a>Sat Math</a></li>
                                         <li onClick={() => navigateTo('/duolingo')}><a>Duolingo</a></li>
                                         <li onClick={() => navigateTo('/adaschool')}><a>Ada School</a></li>
                                         <li onClick={() => navigateTo('/intensiv')}><a>İntensiv</a></li>
                                         <li onClick={() => navigateTo('/bussinessenglish')}><a>Bussiness English</a></li>
                                         <li onClick={() => navigateTo('/almandili')}><a>Alman dili</a></li>
-                                        
+                                        <li onClick={() => navigateTo('/kids')}><a>Kids English</a></li>
                                         <li onClick={() => navigateTo('/rusdili')}><a>Rus Dili</a></li>
-                                        <li onClick={() => navigateTo('/onlyspeaking')}><a>Only Speaking</a></li> */}
+                                        <li onClick={() => navigateTo('/onlyspeaking')}><a>Only Speaking</a></li>
+                                        <li onClick={() => navigateTo('/allmath')}><a>Math</a></li>
+                                        <li onClick={() => navigateTo('/yos')}><a>Yös</a></li>
+                                        <li onClick={() => navigateTo('/science')}><a>Science</a></li>
 
                                     </ul>
                                 </details>

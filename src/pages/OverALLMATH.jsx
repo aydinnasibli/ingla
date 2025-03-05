@@ -1,9 +1,9 @@
 import React from 'react'
 
-function OnlySpeaking() {
+function OverAllMath() {
     return (
         <div >
-            <p className='text-center  text-4xl mt-10'>Only Speaking</p>
+            <p className='text-center  text-4xl mt-10'>All Math</p>
             <p></p>
             <section class="py-14 lg:py-24 relative">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
@@ -16,9 +16,9 @@ function OnlySpeaking() {
                             <div class="data w-full">
                                 <h2
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                                    Only Speaking </h2>
+                                    All Math </h2>
                                 <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                    OnlySpeaking kursları, yalnız danışıq bacarıqlarını inkişaf etdirməyə yönəlmiş intensiv proqramdır. Bu kursda əsas məqsəd, tələbələrin ingilis dilində daha sərbəst və inamlı şəkildə danışmasını təmin etməkdir. Tədris yalnız şifahi ünsiyyətə fokuslanır və tələbələrə gündəlik həyatda, iş mühitində və sosial şəraitdə özlərini rahat ifadə etməyə kömək edir. Aktiv iştirak və interaktiv məşqlərlə hər bir tələbə öz danışıq bacarıqlarını qısa müddət ərzində artırır.
+                                    Riyaziyyat kurslarımız müxtəlif səviyyələrdə təhsil verərək tələbələrin riyaziyyat bacarıqlarını inkişaf etdirir. AP Kalkulus kursları yüksək səviyyəli şagirdlərə dərindən və detallı şəkildə kalkulus anlayışlarını öyrədir, onları universitet səviyyəsindəki imtahanlara hazırlayır. Eyni zamanda, IB Riyaziyyat proqramı, beynəlxalq təhsil sisteminə uyğun olaraq tələbələrin tənqidi düşünmə və analitik bacarıqlarını inkişaf etdirir. IGCSE Riyaziyyat kursları isə əsas riyaziyyat bacarıqlarını öyrənmək istəyənlər üçün ideal seçimdir və şagirdlərə gələcək təhsil yollarını açır.
                                 </p>
                             </div>
                         </div>
@@ -32,15 +32,9 @@ function OnlySpeaking() {
                             <div class="data w-full">
                                 <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
                                     class="block lg:hidden mb-9 mx-auto object-cover" />
-                                <ul className="list-disc space-y-6  pl-6 text-xl text-gray-500 max-w-2xl mx-auto">
-                                    <li>OnlySpeaking kursları yalnız danışıq bacarıqlarına fokuslanaraq tədris edilir.</li>
-                                    <li>Gündəlik həyatda və iş mühitində ingilis dilində sərbəst ünsiyyət qurmaq üçün praktiki dərslər təklif olunur.</li>
-                                    <li>Tədris interaktivdir və tələbələrin aktiv iştirakını təmin edir.</li>
-                                    <li>Danışıq bacarıqlarını sürətlə inkişaf etdirmək üçün xüsusi hazırlanmış proqramlar mövcuddur.</li>
-                                    <li>Tələbələrə ingilis dilində inamla danışmaq və öz fikirlərini düzgün ifadə etmək öyrədilir.</li>
-
-
-                                </ul>
+                                <p className='font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto'>
+                                    Bizim uşaqlar üçün riyaziyyat kurslarımız, kiçik yaşlardan riyaziyyatın əsaslarını əyləncəli və asan başa düşülən şəkildə öyrədir. Bu proqramlar uşaqların məntiqi düşünmə, problem həll etmə və hesablamalar üzərində güclü bacarıqlar inkişaf etdirməsinə kömək edir. SAT Riyaziyyat kursları isə ali məktəblərə qəbul olmaq istəyən tələbələr üçün yüksək nəticələr əldə etməyi təmin edir, çünki bu proqramda test hazırlığı, problemlərin həlli və zaman idarəçiliyi kimi bacarıqlar öyrədilir.
+                                </p>
                             </div>
                         </div>
                         <div class="img-box ">
@@ -238,4 +232,4 @@ function OnlySpeaking() {
     )
 }
 
-export default OnlySpeaking
+export default OverAllMath
