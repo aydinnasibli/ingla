@@ -1,16 +1,17 @@
 import React from 'react'
-
+import photo from '../assets/generalenglish/IMG_8494.png'
+import photo2 from '../assets/generalenglish/IMG_8493.png'
 function GeneralEnglish() {
     return (
         <div >
-            <p className='text-center  text-4xl mt-10'>General English</p>
+            <p className='text-center text-4xl mt-10'>General English</p>
             <p></p>
             <section class="py-14 lg:py-24 relative">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
-                        <div class="img-box">
-                            <img src="https://pagedone.io/asset/uploads/1702034769.png" alt="About Us tailwind page"
-                                class="max-lg:mx-auto object-cover" />
+                        <div class="img-box ">
+                            <img src={photo} alt="general english"
+                                class="max-lg:mx-auto rounded-3xl object-cover" />
                         </div>
                         <div class="lg:pl-[100px] flex items-center">
                             <div class="data w-full">
@@ -32,8 +33,8 @@ function GeneralEnglish() {
 
                         <div class="lg:pr-24 flex items-center">
                             <div class="data w-full">
-                                <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
-                                    class="block lg:hidden mb-9 mx-auto object-cover" />
+                                <img src={photo2} alt="General English"
+                                    class="block rounded-3xl lg:hidden mb-9 mx-auto object-cover" />
 
                                 <p class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
                                     Bu dərslərdə siz danışıq, dinləmə, oxu və yazı bacarıqlarınızı artıracaqsınız.
@@ -42,8 +43,8 @@ function GeneralEnglish() {
                             </div>
                         </div>
                         <div class="img-box ">
-                            <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
-                                class="hidden lg:block object-cover" />
+                            <img src={photo2} alt="About Us tailwind page"
+                                class="hidden rounded-3xl lg:block object-cover" />
                         </div>
                     </div>
                 </div>

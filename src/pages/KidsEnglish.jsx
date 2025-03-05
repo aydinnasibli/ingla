@@ -1,5 +1,6 @@
 import React from 'react'
-
+import photo from '../assets/kidsenglish/IMG_8454.png'
+import photo2 from '../assets/kidsenglish/IMG_8460.png'
 function KidsEnglish() {
     return (
         <div>
@@ -9,8 +10,8 @@ function KidsEnglish() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-9">
                         <div className="img-box">
-                            <img src="https://pagedone.io/asset/uploads/1702034769.png" alt="Kids English"
-                                className="max-lg:mx-auto object-cover" />
+                            <img src={photo} alt="Kids English"
+                                className="max-lg:mx-auto object-cover rounded-3xl" />
                         </div>
                         <div className="lg:pl-[100px] flex items-center">
                             <div className="data w-full">
@@ -31,8 +32,8 @@ function KidsEnglish() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-9">
                         <div className="lg:pr-24 flex items-center">
                             <div className="data w-full">
-                                <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="Kids English learning"
-                                    className="block lg:hidden mb-9 mx-auto object-cover" />
+                                <img src={photo2} alt="Kids English learning"
+                                    className="block lg:hidden mb-9 mx-auto object-cover rounded-3xl" />
                                 <h3 className="font-bold text-3xl mb-6 max-lg:text-center">📌 Kids English Dərslərinin Əhatə Etdiyi Sahələr</h3>
                                 <ul className="space-y-4 text-lg text-gray-500">
                                     <li className="flex items-start">
@@ -63,8 +64,8 @@ function KidsEnglish() {
                             </div>
                         </div>
                         <div className="img-box">
-                            <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="Kids English learning"
-                                className="hidden lg:block object-cover" />
+                            <img src={photo2} alt="Kids English learning"
+                                className="rounded-3xl hidden lg:block object-cover" />
                         </div>
                     </div>
                 </div>

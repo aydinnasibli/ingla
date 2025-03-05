@@ -101,7 +101,6 @@ export default function Header() {
 
                     <button onClick={() => navigateTo('/xaricdetehsil')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Xaricdə Təhsil</button>
                     <button onClick={() => navigateTo('/preschool')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Preschool</button>
-                    <button onClick={() => navigateTo('/preschool')} className='text-base font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'>Sertifikatı Yoxla</button>
 
                 </PopoverGroup>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">

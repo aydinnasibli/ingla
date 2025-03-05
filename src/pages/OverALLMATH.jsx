@@ -1,5 +1,6 @@
 import React from 'react'
-
+import photo from '../assets/riyaziyyat/IMG_8514.png'
+import photo2 from '../assets/riyaziyyat/IMG_8519.png'
 function OverAllMath() {
     return (
         <div >
@@ -9,8 +10,8 @@ function OverAllMath() {
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
                         <div class="img-box">
-                            <img src="https://pagedone.io/asset/uploads/1702034769.png" alt="About Us tailwind page"
-                                class="max-lg:mx-auto object-cover" />
+                            <img src={photo} alt="About Us tailwind page"
+                                class="rounded-3xl max-lg:mx-auto object-cover" />
                         </div>
                         <div class="lg:pl-[100px] flex items-center">
                             <div class="data w-full">
@@ -30,16 +31,16 @@ function OverAllMath() {
                     <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-9 ">
                         <div class="lg:pr-24 flex items-center">
                             <div class="data w-full">
-                                <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
-                                    class="block lg:hidden mb-9 mx-auto object-cover" />
+                                <img src={photo2} alt="About Us tailwind page"
+                                    class="block lg:hidden mb-9 mx-auto object-cover rounded-3xl" />
                                 <p className='font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto'>
                                     Bizim uşaqlar üçün riyaziyyat kurslarımız, kiçik yaşlardan riyaziyyatın əsaslarını əyləncəli və asan başa düşülən şəkildə öyrədir. Bu proqramlar uşaqların məntiqi düşünmə, problem həll etmə və hesablamalar üzərində güclü bacarıqlar inkişaf etdirməsinə kömək edir. SAT Riyaziyyat kursları isə ali məktəblərə qəbul olmaq istəyən tələbələr üçün yüksək nəticələr əldə etməyi təmin edir, çünki bu proqramda test hazırlığı, problemlərin həlli və zaman idarəçiliyi kimi bacarıqlar öyrədilir.
                                 </p>
                             </div>
                         </div>
                         <div class="img-box ">
-                            <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
-                                class="hidden lg:block object-cover" />
+                            <img src={photo2} alt="About Us tailwind page"
+                                class="hidden lg:block object-cover rounded-3xl" />
                         </div>
                     </div>
                 </div>
