@@ -7,7 +7,7 @@ function Layout({ children }) {
     return (
         <>
             <div className=" max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-                <header>
+                <header className='sticky top-0 z-50'>
                     <Header />
                 </header>
                 <main>
