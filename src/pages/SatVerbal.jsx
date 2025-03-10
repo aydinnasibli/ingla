@@ -1,9 +1,9 @@
 import React from 'react'
 
-function SatVerbal() {
+function Sat() {
     return (
         <div >
-            <p className='text-center  text-4xl mt-10'>Sat verbal</p>
+            <p className='text-center  text-4xl mt-10'>SAT (Scholastic Aptitude Test) </p>
             <p></p>
             <section class="py-14 lg:py-24 relative">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
@@ -16,7 +16,7 @@ function SatVerbal() {
                             <div class="data w-full">
                                 <h2
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                                    Sat Verbal </h2>
+                                    Verbal </h2>
                                 <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
                                     SAT Verbal kurslarımız tələbələri SAT imtahanının verbal hissəsinə hazırlamaq üçün nəzərdə tutulmuşdur. Bu kursda şagirdlərə oxu, yazı və analiz bacarıqları inkişaf etdirilir. Əsas məqsəd, şagirdlərin mətnləri düzgün təhlil etməsi və onları şərh etməsi bacarıqlarını artırmaqdır. Kurs, həmçinin geniş söz bazası və yazılı ifadə bacarıqlarını təkmilləşdirməyə kömək edir, bu da imtahanda yüksək bal toplamaq üçün vacibdir. SAT Verbal kursu, tələbələrə imtahanın verbal hissəsindən uğurla keçmək və yüksək nəticələr əldə etmək üçün lazımi bacarıqları təqdim edir.
                                 </p>
@@ -33,23 +33,24 @@ function SatVerbal() {
                             <div class="data w-full">
                                 <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
                                     class="block lg:hidden mb-9 mx-auto object-cover" />
+                                <h2
+                                    class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
+                                    Math </h2>
+                                <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                                    SAT Math kurslarımız tələbələri SAT imtahanının math hissəsinə hazırlamaq üçün nəzərdə tutulmuşdur. Bu kursda şagirdlərə oxu, yazı və analiz bacarıqları inkişaf etdirilir. Əsas məqsəd, şagirdlərin mətnləri düzgün təhlil etməsi və onları şərh etməsi bacarıqlarını artırmaqdır. Kurs, həmçinin geniş söz bazası və yazılı ifadə bacarıqlarını təkmilləşdirməyə kömək edir, bu da imtahanda yüksək bal toplamaq üçün vacibdir. SAT Math kursu, tələbələrə imtahanın verbal hissəsindən uğurla keçmək və yüksək nəticələr əldə etmək üçün lazımi bacarıqları təqdim edir.
+                                </p>
 
-                                <ul className="list-disc space-y-6  pl-6 text-xl text-gray-500 max-w-2xl mx-auto">
-                                    <li>Oxu və yazı bacarıqlarını inkişaf etdirərək verbal hissəyə hazırlıq.</li>
-                                    <li>Mətnlərin düzgün təhlil edilməsi və şərh edilməsi bacarığını artırmaq.</li>
-                                    <li>Söz bazasının genişləndirilməsi və yazılı ifadə bacarıqlarının təkmilləşdirilməsi.</li>
-                                    <li>İmtahanın verbal hissəsinə spesifik hazırlıq və təlim.</li>
-                                    <li>Yüksək nəticə əldə etmək üçün təhlil və kritik düşünmə bacarıqlarını gücləndirmək.</li>
-
-
-                                </ul>
                             </div>
+
                         </div>
+
                         <div class="img-box ">
                             <img src="https://pagedone.io/asset/uploads/1702034785.png" alt="About Us tailwind page"
                                 class="hidden lg:block object-cover" />
                         </div>
+
                     </div>
+
                 </div>
             </section>
             <section className="py-24 ">
@@ -240,4 +241,4 @@ function SatVerbal() {
     )
 }
 
-export default SatVerbal
+export default Sat

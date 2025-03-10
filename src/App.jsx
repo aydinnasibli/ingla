@@ -9,7 +9,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import Layout from './components/Layout'
 import GeneralEnglish from './pages/GeneralEnglish'
 import Cambridge from './pages/Cambridge'
-import SatVerbal from './pages/SatVerbal'
+import Sat from './pages/SatVerbal'
 import Duolingo from './pages/Duolingo'
 import AdaSchool from './pages/AdaSchool'
 import Almandili from './pages/Almandili'
@@ -122,7 +122,7 @@ function App() {
                   opacity: { duration: 0.6 }, // Ensure opacity changes are smooth and sync well
                 }}
               >
-                <SatVerbal />
+                <Sat />
               </motion.div>
             } />
             <Route path="/allmath" element={
