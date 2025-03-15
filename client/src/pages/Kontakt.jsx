@@ -15,14 +15,19 @@ function Kontakt() {
 
     const sendData = async (e) => {
         e.preventDefault()
-        axios.get('/')
         const { name, email, phone, message, preferred } = data
         try {
             const { data } = await axios.post('/kontakt', { name, email, phone, message, preferredContact: preferred })
             if (data.error) {
                 toast.error(data.error)
             } else {
-                setData({})
+                setData({
+                    name: "",
+                    email: "",
+                    phone: "",
+                    message: "",
+                    preferred: ""
+                })
                 toast.success("Mesajınız göndərildi")
             }
         } catch (error) {
