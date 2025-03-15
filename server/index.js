@@ -4,7 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const app = express();
 app.use(cors({
-    origin: 'https:ingla.vercel.app',  // Set only one origin
+    origin: 'https://ingla.vercel.app',  // Set only one origin
     credentials: true,  // Required for cookies/sessions
 }));
 app.use((req, res, next) => {
