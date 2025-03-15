@@ -47,7 +47,7 @@ const sendContactForm = async (req, res) => {
         });
         const mailOptions = {
             from: process.env.EMAIL_USER,
-            to: 'info@inglaschool.az', // Change to the recipient's email
+            to: 'aydinnasibli7@gmail.com', // Change to the recipient's email
             subject: 'New Contact Form Submission',
             html: `
                 <h2>New Contact Form Submission</h2>

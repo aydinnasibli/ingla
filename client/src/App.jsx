@@ -23,7 +23,7 @@ import PreschoolPage from './pages/PreSchool'
 import RusDili from './pages/RusDili'
 import Ielts from './pages/Ielts'
 import { Toaster } from 'react-hot-toast'
-axios.defaults.baseURL = 'http://localhost:8000'
+axios.defaults.baseURL = 'https://ingla.onrender.com'
 axios.defaults.withCredentials = true
 function App() {
   const [count, setCount] = useState(0)
