@@ -1,0 +1,4 @@
+body {
+    @apply bg-slate-50;
+    /* Apply the custom background color */
+}
