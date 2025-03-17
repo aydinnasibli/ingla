@@ -8,7 +8,7 @@ export default function JoinCourse() {
         email: "",
         phone: "",
         message: "",
-        preferred: "",
+        course: "",
     })
 
     const courses = ["İngilis Dili", "Ielts", "Duolingo", "SAT", "YÖS", "Calculus", " IB Cambridge Math", "Alman Dili", "Rus Dili", "Ada School"];
@@ -29,7 +29,7 @@ export default function JoinCourse() {
                     email: "",
                     phone: "",
                     message: "",
-                    preferred: ""
+                    course: ""
                 })
                 toast.success("Mesajınız göndərildi")
             }

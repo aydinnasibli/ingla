@@ -91,8 +91,8 @@ const CertificateSection = () => {
                 <button
                     onClick={() => setIsOpen(true)}
                     className="py-2 px-6 rounded-lg font-semibold  text-gray-900
-                        bg-[#ffde2b]  transition-all duration-300 
-                        hover:shadow-xl hover:bg-[#f3d11d] hover:scale-105"
+                        bg-[#ffde2b] hover:bg-[#f3d11d] transition-all duration-300 
+                        hover:shadow-xl  hover:scale-105"
                 >
                     Sertifikatı Yoxla
                 </button>
