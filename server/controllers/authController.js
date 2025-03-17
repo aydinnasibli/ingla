@@ -48,7 +48,7 @@ const sendJoinCourseForm = async (req, res) => {
         const mailOptions = {
             from: process.env.EMAIL_USER,
             to: 'info@inglaschool.az', // Change to the recipient's email
-            subject: 'New Contact Form Submission',
+            subject: 'Kursa Qoşulmaq Üçün Müraciət',
             html: `
                 <h2>Kursa Qoşul </h2>
                 <p><strong>Ad Soyad:</strong> ${name}</p>
@@ -114,7 +114,7 @@ const sendContactForm = async (req, res) => {
         const mailOptions = {
             from: process.env.EMAIL_USER,
             to: 'info@inglaschool.az', // Change to the recipient's email
-            subject: 'New Contact Form Submission',
+            subject: 'Əlaqə Formu Müraciəti',
             html: `
                 <h2>Kontakt formu</h2>
                 <p><strong>Ad Soyad:</strong> ${name}</p>
