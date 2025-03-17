@@ -25,7 +25,7 @@ const StyledWrapper = styled.div`
   button {
     font-family: inherit;
     font-size: 18px;
-    background: royalblue;
+    background: #f3d11d;
     color: white;
     padding: 0.7em 1em;
     display: flex;
