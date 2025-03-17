@@ -11,76 +11,85 @@ import photo6 from '../assets/11ratio/IMG_8516.png'
 const englishCourses = [
     {
         title: "Ümumi İngilis dili",
-        description: "Qrammatika, lüğət və tələffüzü əhatə edən əsas İngilis dili biliklərini mənimsəyin.",
+        description: "Özünüzə inamlə şəkildə səlis ingiliscə danışın",
         image: photo5,
-        duration: "12 həftə",
+        duration: "1-9 ay",
         level: "Başlanğıcdan Orta səviyyəyə",
         curriculum: "Qrammatika, Lüğət, Danışıq, Dinləmə, Yazı",
         instructor: "John Doe, İngilis dilçiliyində magistr",
+        class: "Maksimum 6, fərdi",
+        classTime: "120 dəqiqə",
+        calendar: "Həftədə 3 dəfə",
+        age: "10",
         prerequisites: "Tələb yoxdur",
-        features: ["İnteraktiv dərslər", "Həftəlik testlər", "Qrammatika və lüğət tapşırıqları"],
+        features: ["İnteraktiv dərslər", "Unit imtahanları", "Əlavə materiallar"],
         enrollmentLink: "#"
     },
     {
         title: "Uşaqlar üçün İngilis dili",
         description: "Əyləncəli və maraqlı dərslər uşaqlar üçün, əsas sözlər, cümlələr və oyunlara yönəlib.",
         image: photo2,
-        duration: "8 həftə",
+        duration: "1-9 ay",
         level: "Başlanğıc",
         curriculum: "İnteraktiv Oyunlar, Lüğət, Sadə Cümlələr, Hekayələr",
         instructor: "Jane Smith, Təhsil üzrə bakalavr",
+        class: "Maksimum 6, fərdi",
+        classTime: "90 dəqiqə",
+        calendar: "Həftədə 2 dəfə",
+        age: " 4",
         prerequisites: "Tələb yoxdur",
-        features: ["Maraqlı fəaliyyətlər", "Hekayə əsaslı tədris", "Rəngarəng vizuallar"],
+        features: ["Interaktiv dərs", "Unit imtahanları", "Əlavə materiallar", "Həvəsləndirmə tədbirləri"],
         enrollmentLink: "#"
     },
     {
         title: "İntensiv İngilis dili",
         description: "İngilis dil bacarıqlarınızı tez və effektiv şəkildə inkişaf etdirmək üçün sürətli kurs.",
         image: photo3,
-        duration: "6 həftə",
+        duration: "3 ay",
         level: "Orta səviyyədən Yüksək səviyyəyə",
         curriculum: "İntensiv Danışıq, Yazı, İnkişaf etmiş Qrammatika, Tələffüz",
+        class: "Maksimum 4, fərdi",
+        classTime: "180 dəqiqə",
+        calendar: "Həftədə 5 dəfə",
+        age: "10",
         instructor: "Alice Johnson, TESOL Sertifikatlı",
         prerequisites: "Orta səviyyəli İngilis dili",
-        features: ["Yüksək intensivlikli dərslər", "Fərdi danışıq məşqləri", "İnkişaf etmiş qrammatika"],
+        features: ["Interaktiv dərs", "Unit imtahanları", "Əlavə materiallar", "Həvəsləndirmə tədbirləri"],
         enrollmentLink: "#"
     },
     {
         title: "Biznes İngilis dili",
         description: "İş mühitində İngilis dili bacarıqlarınızı inkişaf etdirin: danışıqlar, iclaslar və təqdimatlar.",
         image: photo4,
-        duration: "10 həftə",
+        duration: "1-9 ay",
         level: "Orta səviyyədən Yüksək səviyyəyə",
         curriculum: "Biznes Lüğəti, İclaslar, Təqdimatlar, Danışıqlar Bacarığı",
         instructor: "Michael Brown, MBA, Sertifikatlı Biznes İngilis dili Müəllimi",
+        class: "Maksimum 6, fərdi",
+        classTime: "90 dəqiqə",
+        calendar: "Həftədə 2 dəfə",
+        age: "18",
         prerequisites: "Əsas Biznes İngilis dili",
-        features: ["Rəsmi üslubda danışıq", "Danışıqlar bacarıqları", "Biznes yazışmalarının inkişafı"],
+        features: ["Hazır qəliblər əsasında nitq çıxışı", "Sahələr üzrə Əlavə materiallar", "Rəsmi məktubların yazılma forması"],
         enrollmentLink: "#"
     },
     {
-        title: "Yalnız Danışıq",
+        title: "Danışıq Dərsləri",
         description: "Danışıq bacarıqlarınızı gündəlik dialoqlar və tələffüz məşqləri ilə inkişaf etdirin.",
         image: photo1,
-        duration: "8 həftə",
+        duration: "1-4 ay",
         level: "Orta səviyyə",
         curriculum: "Tələffüz, Gündəlik Danışıqlar, İctimai Danışıq, Müzakirələr",
         instructor: "David Lee, TESOL Sertifikatlı",
+        class: "Maksimum 4, fərdi",
+        classTime: "60 dəqiqə",
+        calendar: "Həftədə 2-3 dəfə",
+        age: "15",
         prerequisites: "Orta səviyyəli İngilis dili",
-        features: ["Gündəlik dialoqlar", "Müzakirə təcrübələri", "Tələffüz düzəlişləri"],
+        features: ["Rollu oyunlar", "Müxtəlif məkanlarda praktika", "Düzgün tələffüz"],
         enrollmentLink: "#"
     },
-    {
-        title: "Peşə Sahələri üçün İngilis dili",
-        description: "Xüsusi peşələr üçün İngilis dili kursu: tibb, mühəndislik, hüquq və digər sahələr üçün terminlər və danışıq bacarıqları.",
-        image: photo6,
-        duration: "10 həftə",
-        level: "Orta səviyyədən Yüksək səviyyəyə",
-        curriculum: "Peşəyə uyğun terminlər, rəsmi yazışmalar, təqdimatlar, ünsiyyət bacarıqları",
-        instructor: "Emily White, Peşəkar İngilis dili Təlimçisi",
-        prerequisites: "Əsas İngilis dili bilikləri",
-        features: ["Sektora uyğun materiallar", "Rəsmi yazışmalar", "Sahəyə aid danışıq məşqləri"],
-        enrollmentLink: "#"
-    },
+
 ];
 
 const GeneralEnglish = () => {
@@ -146,7 +155,10 @@ const GeneralEnglish = () => {
                         />
                         <p className="text-lg text-gray-600 mt-4">{selectedCourse.description}</p>
                         <p className="text-sm text-gray-500 mt-2"><strong>Müddət:</strong> {selectedCourse.duration}</p>
-                        <p className="text-sm text-gray-500"><strong>Səviyyə:</strong> {selectedCourse.level}</p>
+                        <p className="text-sm text-gray-500 mt-2"><strong>Sinif:</strong> {selectedCourse.class}</p>
+                        <p className="text-sm text-gray-500 mt-2"><strong>Dərs Müddəti:</strong> {selectedCourse.classTime}</p>
+                        <p className="text-sm text-gray-500 mt-2"><strong>Dərs Cədvəli:</strong> {selectedCourse.calendar}</p>
+                        <p className="text-sm text-gray-500 mt-2"><strong>Minimum Yaş:</strong> {selectedCourse.age}</p>
                         <p className="text-sm text-gray-500 mt-4"><strong>Kurikulum:</strong> {selectedCourse.curriculum}</p>
 
                         {/* Əlavə Kurs Məlumatı */}

@@ -81,7 +81,7 @@ export default function Header() {
                                 <li onClick={() => navigateTo('/sat')}><a>SAT </a></li>
                                 <li onClick={() => navigateTo('/yos')}><a>Yös</a></li>
                                 <li onClick={() => navigateTo('/allmath')}><a>Calculus</a></li>
-                                <li onClick={() => navigateTo('/ibvecambridgemath')}><a>IB və Cambdridge </a></li>
+                                <li onClick={() => navigateTo('/ibvecambridgemath')}><a>IB Cambdridge Math</a></li>
 
                                 <li onClick={() => navigateTo('/almandili')}><a>Alman dili</a></li>
                                 <li onClick={() => navigateTo('/rusdili')}><a>Rus Dili</a></li>
@@ -150,7 +150,7 @@ export default function Header() {
                                         <li onClick={() => navigateTo('/sat')}><a>SAT</a></li>
                                         <li onClick={() => navigateTo('/yos')}><a>Yös</a></li>
                                         <li onClick={() => navigateTo('/allmath')}><a>Calculus</a></li>
-                                        <li onClick={() => navigateTo('/ibvecambridgemath')}><a>IB və Cambdridge </a></li>
+                                        <li onClick={() => navigateTo('/ibvecambridgemath')}><a>IB Cambdridge Math </a></li>
 
                                         <li onClick={() => navigateTo('/almandili')}><a>Alman dili</a></li>
                                         <li onClick={() => navigateTo('/rusdili')}><a>Rus Dili</a></li>

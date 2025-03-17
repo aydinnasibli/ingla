@@ -86,9 +86,9 @@ function Duolingo() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Əyləncəli və İnteraktiv Yanaşma
+                                Adaptiv Tədris Metodu
                             </h4>
-                            <p className="text-base text-gray-500">Oyunlar, musiqi, rəsm və digər kreativ fəaliyyətlərlə dil öyrənməyi əyləncəli edirik.</p>
+                            <p className="text-base text-gray-500">Tələbənin hazırkı səviyyəsinə uyğun fərdi yanaşma.</p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-pink-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-pink-600">
@@ -123,9 +123,9 @@ function Duolingo() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Yaşlara Uyğun Tədris
+                                Rəsmi Duolingo Test Materialları
                             </h4>
-                            <p className="text-base text-gray-500">Hər yaşa uyğun proqramlar, sadə və asan başa düşülən metodlarla dərslər.</p>
+                            <p className="text-base text-gray-500">İmtahana uyğun praktiki tapşırıqlar və nümunə cavablar.</p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-teal-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-teal-600">
@@ -146,9 +146,9 @@ function Duolingo() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Təkrarlama və Təcrübə
+                                Vaxtın Effektiv İdarə Edilməsi
                             </h4>
-                            <p className="text-base text-gray-500">Uşaqların öyrəndiklərini gündəlik həyatda istifadə etmələri üçün təkrarlanan fəaliyyətlər.</p>
+                            <p className="text-base text-gray-500">Sürətli və düzgün cavab vermə texnikaları</p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-amber-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-amber-600">
@@ -170,9 +170,9 @@ function Duolingo() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Peşəkar Müəllimlər
+                                Tələffüz və Səlis Danışıq
                             </h4>
-                            <p className="text-base text-gray-500">Uşaqlarla işləməkdə təcrübəsi olan müəllimlər ilə dərslər.</p>
+                            <p className="text-base text-gray-500">İngilis dilində inamlı danışmaq üçün interaktiv məşqlər.</p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-purple-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-purple-600">
@@ -194,9 +194,9 @@ function Duolingo() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Fərdi Yanaşma
+                                Sınaq İmtahanları və Rəy
                             </h4>
-                            <p className="text-base text-gray-500">Hər bir uşağın öz sürətinə uyğun dərslər və inkişaf izləmə.</p>
+                            <p className="text-base text-gray-500">Tələbələrin irəliləyişini qiymətləndirmək üçün real test simulyasiyaları.</p>
                         </div>
                     </div>
                 </div>
@@ -221,8 +221,8 @@ function Duolingo() {
                             <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
                                 <span className="text-indigo-600 text-xl">✔️</span>
                             </div>
-                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2-3 dəfə, 60 dəqiqəlik dərslər</h3>
-                            <p className="text-gray-600 text-center">Uşaqların diqqətini cəlb edəcək müddətdə intensiv dərslər.</p>
+                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2 dəfə, 90 dəqiqəlik dərslər</h3>
+                            <p className="text-gray-600 text-center">Uşaqların inkişafını izləyirik və müntəzəm olaraq rəy veririk.</p>
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm">

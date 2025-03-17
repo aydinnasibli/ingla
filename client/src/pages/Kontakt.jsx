@@ -4,7 +4,6 @@ import axios from 'axios'
 import office from '../assets/office.png'
 import { toast } from 'react-hot-toast'
 function Kontakt() {
-
     const [data, setData] = useState({
         name: "",
         email: "",

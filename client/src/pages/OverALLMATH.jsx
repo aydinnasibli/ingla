@@ -19,8 +19,13 @@ function OverAllMath() {
                                 <h2
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                                     Calculus </h2>
-                                <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                    Riyaziyyat kurslarımız müxtəlif səviyyələrdə təhsil verərək tələbələrin riyaziyyat bacarıqlarını inkişaf etdirir. AP Kalkulus kursları yüksək səviyyəli şagirdlərə dərindən və detallı şəkildə kalkulus anlayışlarını öyrədir, onları universitet səviyyəsindəki imtahanlara hazırlayır. Eyni zamanda, IB Riyaziyyat proqramı, beynəlxalq təhsil sisteminə uyğun olaraq tələbələrin tənqidi düşünmə və analitik bacarıqlarını inkişaf etdirir. IGCSE Riyaziyyat kursları isə əsas riyaziyyat bacarıqlarını öyrənmək istəyənlər üçün ideal seçimdir və şagirdlərə gələcək təhsil yollarını açır.
+                                <p class="font-normal  text-lg leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                                    Riyaziyyatın təməlini təşkil edən kalkulyus, hər bir tələbə və peşəkar üçün vacib bir sahədir. Təhsil şirkətimiz, kalkulyusun diferensial hesab (funksiyaların sürətini və dəyişməsini öyrənmək) və inteqral hesab (funksiyaların altında qalan sahəni hesablamaq) sahələrində geniş və əhatəli dərslər təqdim edir.
+                                    <br />Dərs Məzmunu:
+                                    <br />• Diferensial Hesab: Funksiyaların dəyişmə sürətini, təkanlarını və maksimum-minimum nöqtələrini tapma.
+                                    <br />• İnteqral Hesab: Funksiyaların altındakı sahəni hesablamaq, təkrarlanan prosesləri, kəmiyyətləri cəmləmək.
+                                    <br />• Tətbiq Nümunələri: Fizika, iqtisadiyyat, mühəndislik və digər sahələrdə kalkulyusun tətbiqi, real həyat problemlərinin həlli.
+                                    <br />• Praktik Tapşırıqlar: Hər dərsdən sonra tətbiqi məsələlər və testlər, öyrənilən nəzəriyyənin güclü praktiki tətbiqi.
                                 </p>
                             </div>
                         </div>
@@ -34,17 +39,33 @@ function OverAllMath() {
                             <div class="data w-full">
                                 <img src={photo2} alt="About Us tailwind page"
                                     class="block lg:hidden mb-9 mx-auto object-cover rounded-xl" />
-                                <p className='font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto'>
-                                    Bizim uşaqlar üçün riyaziyyat kurslarımız, kiçik yaşlardan riyaziyyatın əsaslarını əyləncəli və asan başa düşülən şəkildə öyrədir. Bu proqramlar uşaqların məntiqi düşünmə, problem həll etmə və hesablamalar üzərində güclü bacarıqlar inkişaf etdirməsinə kömək edir. SAT Riyaziyyat kursları isə ali məktəblərə qəbul olmaq istəyən tələbələr üçün yüksək nəticələr əldə etməyi təmin edir, çünki bu proqramda test hazırlığı, problemlərin həlli və zaman idarəçiliyi kimi bacarıqlar öyrədilir.
-                                </p>
+                                <ul className="list-disc space-y-6  pl-6 text-lg text-gray-500 max-w-2xl mx-auto">
+                                    <p className='text-2xl text-center'>Dərs Məzmunu</p>
+                                    <li>Diferensial Hesab: Funksiyaların dəyişmə sürətini, təkanlarını və maksimum-minimum nöqtələrini tapma.</li>
+                                    <li>İnteqral Hesab: Funksiyaların altındakı sahəni hesablamaq, təkrarlanan prosesləri, kəmiyyətləri cəmləmək.</li>
+                                    <li>Tətbiq Nümunələri: Fizika, iqtisadiyyat, mühəndislik və digər sahələrdə kalkulyusun tətbiqi, real həyat problemlərinin həlli.</li>
+                                    <li>Praktik Tapşırıqlar: Hər dərsdən sonra tətbiqi məsələlər və testlər, öyrənilən nəzəriyyənin güclü praktiki tətbiqi.</li>
+                                    <p className='text-2xl text-center'>Kimlər Üçün Uyğundur?</p>
+                                    <li>Riyaziyyat üzrə daha dərindən bilik əldə etmək istəyən hər kəs.</li>
+                                    <li>Kalkulyusla bağlı təhsilini gücləndirmək və imtahanlarda uğur qazanmaq istəyən tələbələr.</li>
+                                    <li>Riyaziyyatın müxtəlif sahələrində işləyən və kalkulyus biliklərini tətbiq etmək istəyən mütəxəssislər.</li>
+
+
+
+
+                                </ul>
                             </div>
                         </div>
+
                         <div class="img-box ">
                             <img src={photo2} alt="About Us tailwind page"
                                 class="hidden lg:block object-cover rounded-xl" />
                         </div>
+
                     </div>
+
                 </div>
+
             </section>
             <section className="py-24 ">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

@@ -20,7 +20,7 @@ function Ielts() {
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                                     Ielts</h2>
                                 <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                    IELTS (International English Language Testing System) kurslarımız, tələbələri beynəlxalq səviyyədə tanınan IELTS imtahanına peşəkar şəkildə hazırlamaq üçün nəzərdə tutulmuşdur. Kurs, dinləmə, oxuma, yazma və danışıq bölmələrini əhatə edərək tələbələrin ingilis dili bacarıqlarını hərtərəfli inkişaf etdirməsinə kömək edir. Müxtəlif strategiyalar, test həlləri və praktiki məşqlərlə tələbələr imtahan formatını dərindən öyrənir və yüksək bal toplamaq üçün lazımi bacarıqları əldə edirlər. IELTS sertifikatı akademik və ya iş məqsədilə xaricdə təhsil almaq və işləmək istəyənlər üçün vacibdir.
+                                    IELTS (International English Language Testing System) imtahanına hazırlıq kurslarımız sizə istədiyiniz nəticəni əldə etmək üçün peşəkar dəstək təqdim edir. Dərslər Academic Training modulları üzrə təşkil olunur və imtahanın dörd əsas bölməsini – Listening, Reading, Writing və Speaking – əhatə edir.
                                 </p>
                             </div>
                         </div>
@@ -35,11 +35,11 @@ function Ielts() {
                                 <img src={photo2} alt="About Us tailwind page"
                                     class="block lg:hidden mb-9 mx-auto object-cover rounded-xl" />
                                 <ul className="list-disc space-y-6  pl-6 text-xl text-gray-500 max-w-2xl mx-auto">
-                                    <li>IELTS imtahanının dinləmə, oxuma, yazma və danışıq bölmələri üzrə tam hazırlıq.</li>
-                                    <li>Yüksək bal toplamaq üçün test strategiyaları və praktiki tapşırıqlar.</li>
-                                    <li>Danışıq bacarıqlarını inkişaf etdirmək üçün fərdi və qrup məşqləri.</li>
-                                    <li>İmtahanın formatına uyğun olaraq real test nümunələri ilə təcrübə.</li>
-                                    <li>Xaricdə təhsil və iş imkanları üçün beynəlxalq səviyyədə tanınan sertifikat.</li>
+                                    <li>İmtahan Formatı və Strategiyaları – IELTS imtahanının strukturu, sual tipləri və cavab vermə texnikaları izah olunur.</li>
+                                    <li>Listening (Dinləmə) Bacarığı – İngilis dilində dinləmə və əsas məlumatları düzgün anlamaq üçün xüsusi tapşırıqlar verilir.</li>
+                                    <li>Reading (Oxu) Bacarığı – Akademik və ümumi mətnlər üzərində intensiv çalışma, sual tiplərinə uyğun strategiyalar və sürətli oxu texnikaları öyrədilir.</li>
+                                    <li>Writing (Yazı) Bacarığı – Task 1 və Task 2 yazı bölmələri üçün məzmun strukturu, düzgün qrammatika və leksik bacarıqlar inkişaf etdirilir.</li>
+                                    <li>Speaking (Danışıq) Bacarığı – IELTS Speaking bölməsinə uyğun olaraq fərdi cavab vermə, suallara səlis və inamlı cavab strategiyaları öyrədilir.</li>
 
 
                                 </ul>
@@ -86,9 +86,9 @@ function Ielts() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Əyləncəli və İnteraktiv Yanaşma
+                                Fərdi və Qrup Dərsləri
                             </h4>
-                            <p className="text-base text-gray-500">Oyunlar, musiqi, rəsm və digər kreativ fəaliyyətlərlə dil öyrənməyi əyləncəli edirik.</p>
+                            <p className="text-base text-gray-500">Tələbənin ehtiyaclarına uyğun fərdi və ya 3-5 nəfərlik qrup şəklində dərslər.</p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-pink-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-pink-600">
@@ -123,9 +123,9 @@ function Ielts() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Yaşlara Uyğun Tədris
+                                Sınaq İmtahanları
                             </h4>
-                            <p className="text-base text-gray-500">Hər yaşa uyğun proqramlar, sadə və asan başa düşülən metodlarla dərslər.</p>
+                            <p className="text-base text-gray-500">Müntəzəm olaraq rəsmi IELTS formatına uyğun testlər keçirilir və nəticələr təhlil edilir.</p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-teal-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-teal-600">
@@ -146,9 +146,9 @@ function Ielts() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Təkrarlama və Təcrübə
+                                Vaxt İdarəetməsi
                             </h4>
-                            <p className="text-base text-gray-500">Uşaqların öyrəndiklərini gündəlik həyatda istifadə etmələri üçün təkrarlanan fəaliyyətlər.</p>
+                            <p className="text-base text-gray-500">İmtahan zamanı vaxtı düzgün bölmək üçün effektiv strategiyalar.</p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-amber-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-amber-600">
@@ -172,7 +172,7 @@ function Ielts() {
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
                                 Peşəkar Müəllimlər
                             </h4>
-                            <p className="text-base text-gray-500">Uşaqlarla işləməkdə təcrübəsi olan müəllimlər ilə dərslər.</p>
+                            <p className="text-base text-gray-500">IELTS üzrə təcrübəli müəllimlər fərdi yanaşma tətbiq edərək tələbələrin zəif və güclü tərəflərini inkişaf etdirir.</p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/5">
                             <div className="bg-purple-50 rounded-lg flex justify-center items-center mb-5 w-20 h-20 mx-auto cursor-pointer transition-all duration-500 group-hover:bg-purple-600">
@@ -194,9 +194,9 @@ function Ielts() {
                                 </svg>
                             </div>
                             <h4 className="text-lg font-medium text-gray-900 mb-3">
-                                Fərdi Yanaşma
+                                Materiallar və Resurslar
                             </h4>
-                            <p className="text-base text-gray-500">Hər bir uşağın öz sürətinə uyğun dərslər və inkişaf izləmə.</p>
+                            <p className="text-base text-gray-500">Rəsmi IELTS kitabları, sınaq testləri və əlavə tədris resursları təqdim olunur.</p>
                         </div>
                     </div>
                 </div>
@@ -214,23 +214,23 @@ function Ielts() {
                                 <span className="text-indigo-600 text-xl">✔️</span>
                             </div>
                             <h3 className="text-xl font-semibold mb-2 text-center">Onlayn və Əyani Dərslər</h3>
-                            <p className="text-gray-600 text-center">Uşaqların rahatlığına uyğun olaraq dərslər keçirilir.</p>
+                            <p className="text-gray-600 text-center">Rahatlığınıza uyğun seçim imkanı.</p>
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm">
                             <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
                                 <span className="text-indigo-600 text-xl">✔️</span>
                             </div>
-                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2-3 dəfə, 60 dəqiqəlik dərslər</h3>
-                            <p className="text-gray-600 text-center">Uşaqların diqqətini cəlb edəcək müddətdə intensiv dərslər.</p>
+                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2-3 dəfə, 90 dəqiqəlik dərslər</h3>
+                            <p className="text-gray-600 text-center">Fərdi ehtiyaclara uyğun dərs qrafiki.</p>
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm">
                             <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
                                 <span className="text-indigo-600 text-xl">✔️</span>
                             </div>
-                            <h3 className="text-xl font-semibold mb-2 text-center">Davamlı Rəy və İzləmə</h3>
-                            <p className="text-gray-600 text-center">Uşaqların inkişafını izləyirik və müntəzəm olaraq geri dönürük.</p>
+                            <h3 className="text-xl font-semibold mb-2 text-center">Daimi İzləmə və Rəy</h3>
+                            <p className="text-gray-600 text-center">Hər tələbənin irəliləyişi qiymətləndirilir və fərdi rəy verilir.</p>
                         </div>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import photo2 from '../assets/11ratio/IMG_8494.png'
 function Cambridge() {
     return (
         <div >
-            <p className='text-center  text-4xl mt-10'>IB və Cambridge</p>
+            <p className='text-center  text-4xl mt-10'>IB Cambridge Math</p>
             <p></p>
             <section class="py-14 lg:py-24 relative">
                 <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
@@ -18,9 +18,9 @@ function Cambridge() {
                             <div class="data w-full">
                                 <h2
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
-                                    IB və Cambridge</h2>
+                                    IB Cambridge Math</h2>
                                 <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                    IB (International Baccalaureate) və Cambridge proqramları beynəlxalq səviyyədə tanınan təhsil sistemləridir və tələbələrə yüksək akademik biliklər, tənqidi düşünmə və analitik bacarıqlar qazandırır. Bu proqramlar dünyanın aparıcı universitetlərinə qəbul üçün geniş imkanlar yaradır və şagirdlərin qlobal səviyyədə rəqabət qabiliyyətini artırır. Müxtəlif fənlər üzrə dərindən təhsil almağa imkan verən IB və Cambridge, həm də şagirdlərin araşdırma aparmaq, problemləri həll etmək və müstəqil düşünmək bacarıqlarını inkişaf etdirir.
+                                    IB (International Baccalaureate) və Cambridge proqramlarına uyğun Riyaziyyat dərsləri, dünya səviyyəsində qəbul olunan akademik standartlara uyğun şəkildə tədris olunur. Bu dərslər, şagirdləri həm IB həm də Cambridge imtahanlarına hazırlaşdırır, riyaziyyatın əsas anlayışlarını və mürəkkəb mövzuları dərindən öyrədir. Bizim proqramımız tələbələrə yüksək akademik nəticələr əldə etməyi və riyaziyyat sahəsindəki bacarıqlarını maksimum səviyyəyə çatdırmağı hədəfləyir.
                                 </p>
                             </div>
                         </div>
@@ -35,11 +35,12 @@ function Cambridge() {
                                 <img src={photo2} alt="About Us tailwind page"
                                     class="block lg:hidden mb-9 mx-auto object-cover rounded-xl" />
                                 <ul className="list-disc space-y-6  pl-6 text-xl text-gray-500 max-w-2xl mx-auto">
-                                    <li>IB və Cambridge proqramları beynəlxalq səviyyədə tanınan və akademik keyfiyyəti yüksək olan təhsil sistemləridir.</li>
-                                    <li>Bu proqramlar tənqidi düşünmə, araşdırma və analitik bacarıqların inkişafına xüsusi önəm verir.</li>
-                                    <li>Dünyanın aparıcı universitetlərinə qəbul üçün geniş imkanlar yaradır və akademik hazırlığı gücləndirir.</li>
-                                    <li>Şagirdlərə müxtəlif fənlər üzrə dərindən təhsil almağa və qlobal düşüncə formalaşdırmağa kömək edir.</li>
-                                    <li>Müstəqil öyrənmə və problemləri həll etmə bacarıqlarını inkişaf etdirərək tələbələri gələcək akademik və peşəkar uğurlara hazırlaşdırır.</li>
+                                    <li>Algebra və Cəbr – Funksiyalar, tənliklər, polinomlar, kompleks cəbr məsələləri.</li>
+                                    <li>Geometriya və Həndəsə – Məkan, ölçülər, üçbucaq, düzbucaqlı, dairə və həndəsi şəkillər üzərində tətbiqlər.</li>
+                                    <li>Analiz və Diferensial Riyaziyyat – Limitlər, diferensial tənliklər, integral və funksiya analizi.</li>
+                                    <li>Verilənlər və Statistikalar – Ehtimal, məlumatların təhlili, statistik qrafiklər, ehtimal paylamaları.</li>
+                                    <li>Məkan Riyaziyyatı – Üçölçülü analiz, koordinat sistemi, vektorlar və məkan həndəsəsi.</li>
+                                    <li>Mürəkkəb Problemlər və Analitik Həllər – Riyazi düşünmə qabiliyyətini inkişaf etdirmək üçün praktiki tapşırıqlar və nümunələr.</li>
 
 
                                 </ul>
@@ -221,7 +222,7 @@ function Cambridge() {
                             <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
                                 <span className="text-indigo-600 text-xl">✔️</span>
                             </div>
-                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2-3 dəfə, 60 dəqiqəlik dərslər</h3>
+                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2 dəfə, 90 dəqiqəlik dərslər</h3>
                             <p className="text-gray-600 text-center">Uşaqların diqqətini cəlb edəcək müddətdə intensiv dərslər.</p>
                         </div>
 

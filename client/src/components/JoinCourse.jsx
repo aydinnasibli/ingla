@@ -1,36 +1,53 @@
 import { useState } from "react";
-
+import axios from "axios";
+import { toast } from "react-hot-toast";
 export default function JoinCourse() {
     const [isOpen, setIsOpen] = useState(false);
-    const initialFormState = {
+    const [data, setData] = useState({
         name: "",
-        course: "",
-        phone: "",
         email: "",
+        phone: "",
         message: "",
-    };
-    const [formData, setFormData] = useState(initialFormState);
+        preferred: "",
+    })
 
-    const courses = ["General English", "IELTS", "Intensive English", "Only Speaking", "Business English"];
+    const courses = ["İngilis Dili", "Ielts", "Duolingo", "SAT", "YÖS", "Calculus", " IB Cambridge Math", "Alman Dili", "Rus Dili", "Ada School"];
 
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
 
-    const handleSubmit = (e) => {
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log("Form Data Submitted:", formData);
-        setFormData(initialFormState); // ✅ Reset form after submission
+        const { name, course, phone, email, message } = data;
+        try {
+            const { data } = await axios.post('/joincourse', { name, course, phone, email, message })
+            if (data.error) {
+                toast.error(data.error);
+                return; // Stop execution if there's an error
+            } else {
+                setData({
+                    name: "",
+                    email: "",
+                    phone: "",
+                    message: "",
+                    preferred: ""
+                })
+                toast.success("Mesajınız göndərildi")
+            }
+        } catch (error) {
+            console.log(error)
+        }
+        console.log("Form Data Submitted:", data);
+        setData({}); // ✅ Reset form after submission
         setIsOpen(false);
     };
 
     const handleClose = () => {
         setIsOpen(false);
-        setFormData(initialFormState); // ✅ Reset form when modal closes
+        setData({}); // ✅ Reset form when modal closes
     };
 
     return (
-        <div className="flex justify-center items-center min-h-screen ">
+        <div className="flex justify-center items-center py-20 ">
             {/* Course Card */}
             <div className="bg-white shadow-xl rounded-2xl p-8 max-w-lg w-full transition-all hover:scale-105 hover:shadow-2xl">
                 <h2 className="text-2xl font-bold text-gray-800 text-center">Asan Qeydiyyat</h2>
@@ -45,7 +62,7 @@ export default function JoinCourse() {
                 <div className="mt-8 text-center">
                     <button
                         onClick={() => setIsOpen(true)}
-                        className="bg-blue-600 text-white px-8 py-3 text-lg font-medium rounded-lg hover:bg-blue-700 transition"
+                        className="bg-[#ffde2b] text-white px-8 py-3 text-lg font-medium rounded-lg hover:bg-[#f3d11d] transition"
                     >
                         Kursa qoşul
                     </button>
@@ -65,10 +82,9 @@ export default function JoinCourse() {
                                     type="text"
                                     name="name"
                                     placeholder="Adınızı daxil edin"
-                                    value={formData.name}
-                                    onChange={handleChange}
+                                    value={data.name}
+                                    onChange={(e) => setData({ ...data, name: e.target.value })}
                                     className="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-500 outline-none"
-                                    required
                                 />
                             </div>
 
@@ -78,10 +94,9 @@ export default function JoinCourse() {
                                 <div className="relative">
                                     <select
                                         name="course"
-                                        value={formData.course}
-                                        onChange={handleChange}
+                                        value={data.course}
+                                        onChange={(e) => setData({ ...data, course: e.target.value })}
                                         className="appearance-none w-full p-3 border rounded-xl bg-white focus:ring-2 focus:ring-blue-500 outline-none cursor-pointer transition"
-                                        required
                                     >
                                         <option value="">Seçin</option>
                                         {courses.map((course, index) => (
@@ -98,10 +113,9 @@ export default function JoinCourse() {
                                     type="tel"
                                     name="phone"
                                     placeholder="+994 50 123 45 67"
-                                    value={formData.phone}
-                                    onChange={handleChange}
+                                    value={data.phone}
+                                    onChange={(e) => setData({ ...data, phone: e.target.value })}
                                     className="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-500 outline-none"
-                                    required
                                 />
                             </div>
 
@@ -111,10 +125,9 @@ export default function JoinCourse() {
                                     type="email"
                                     name="email"
                                     placeholder="example@email.com"
-                                    value={formData.email}
-                                    onChange={handleChange}
+                                    value={data.email}
+                                    onChange={(e) => setData({ ...data, email: e.target.value })}
                                     className="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-500 outline-none"
-                                    required
                                 />
                             </div>
 
@@ -123,8 +136,9 @@ export default function JoinCourse() {
                                 <textarea
                                     name="message"
                                     placeholder="İstəyiniz varsa mesajınızı yazın..."
-                                    value={formData.message}
-                                    onChange={handleChange}
+                                    value={data.message}
+                                    onChange={(e) => setData({ ...data, message: e.target.value })}
+
                                     className="w-full p-3 border rounded-xl focus:ring-2 focus:ring-blue-500 outline-none h-24"
                                 ></textarea>
                             </div>
@@ -132,7 +146,7 @@ export default function JoinCourse() {
                             <div className="flex justify-between mt-6">
                                 <button
                                     type="submit"
-                                    className="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition"
+                                    className="bg-[#ffde2b] text-white px-6 py-3 rounded-lg font-medium hover:bg-[#f3d11d] transition"
                                 >
                                     Göndər
                                 </button>

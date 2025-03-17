@@ -20,7 +20,7 @@ function AdaSchool() {
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                                     Ada School </h2>
                                 <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                    ADA School-a qəbul imtahanına hazırlaşmaq istəyən şagirdlər üçün peşəkar hazırlıq xidmətləri təklif edirik. Təcrübəli müəllimlərimiz xüsusi metodikalarla dərs keçərək, şagirdlərin bilik və bacarıqlarını inkişaf etdirməyə kömək edir. Proqramımız məntiq, riyaziyyat, ingilis dili və digər vacib fənləri əhatə edir. Hər bir tələbəyə fərdi yanaşma tətbiq edərək onların imtahanda yüksək nəticə göstərməsinə dəstək oluruq. ADA School-a qəbul olmaq istəyənlər üçün ən effektiv və sistemli hazırlıq mərkəzi olaraq sizin yanınızdayıq!
+                                    ADA Universiteti, Azərbaycanda yüksək keyfiyyətli təhsil verən və beynəlxalq standartlara cavab verən təhsil müəssisəsidir. Universitet, tələbələrə geniş akademik proqramlar və güclü akademik kadrlar təqdim edərək, onların professional və şəxsi inkişafını dəstəkləyir. ADA, həmçinin, sosial məsuliyyətli və global düşünən liderlər yetişdirməyə yönəlmiş təhsil yanaşması ilə tanınır.
                                 </p>
                             </div>
                         </div>
@@ -34,12 +34,13 @@ function AdaSchool() {
                             <div class="data w-full">
                                 <img src={photo2} alt="About Us tailwind page"
                                     class="block lg:hidden mb-9 mx-auto object-cover rounded-xl" />
-                                <ul className="list-disc space-y-10  pl-6 text-xl text-gray-500 max-w-2xl mx-auto">
-                                    <li>ADA School qəbul imtahanına hazırlaşmaq üçün xüsusi təşkil olunmuş peşəkar hazırlıq kursları təklif edirik.</li>
-                                    <li>Təcrübəli müəllimlərimiz müasir və effektiv metodikalardan istifadə edərək tədris aparırlar.</li>
-                                    <li>Riyaziyyat, məntiq və ingilis dili üzrə dərslər keçərək şagirdlərin imtahana tam hazırlığını təmin edirik.</li>
-                                    <li>Hər şagird üçün fərdi yanaşma tətbiq edir və davamlı sınaq imtahanları ilə biliklərini yoxlayırıq.</li>
-                                    <li>Yüksək nəticə əldə etmək üçün sistemli hazırlıq və peşəkar dəstək təmin edirik.</li>
+                                <ul className="list-decimal space-y-10  pl-6 text-xl text-gray-500 max-w-2xl mx-auto">
+                                    <p className='text-2xl text-black text-center'>ADA Məktəbinə qəbul üçün 2 fənndən hazırlaşmaq lazımdır:</p>
+                                    <li> İngilis dili imtahanı nəticələrinin təqdim edilməsi
+                                        Tələbələr İngilis dili biliklərini sübut etmək üçün müvafiq ingilis dili imtahanlarının nəticələrini təqdim etməlidirlər. Duolingo, İELTS</li>
+                                    <li> Riyaziyyat imtahanı nəticələrinin təqdim edilməsi
+                                        Azərbaycandakı məktəblərdən ADA Məktəbinə müraciət edən bütün tələbələr, Dövlət İmtahan Mərkəzi (DİM) tərəfindən keçirilən Riyaziyyat İmtahanının (9-cu sinif) nəticəsini təqdim etməlidirlər.</li>
+                                    <p className=''>ixtisaslaşmış müəllimlər sayəsində Riyaziyyat imtahanından və Duolingo imtahanından maksimum nəticə əldə etməyi təmin edirik. Müəllimlərimiz, hər iki imtahanın tələblərinə uyğun olaraq tədris prosesini xüsusi olaraq nəzərdə tutaraq, tələbələrin yüksək nəticə göstərməsinə kömək edəcəklər.</p>
 
 
                                 </ul>

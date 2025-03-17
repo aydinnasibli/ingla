@@ -21,7 +21,7 @@ function Sat() {
                                     class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center relative">
                                     Verbal </h2>
                                 <p class="font-normal  text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
-                                    SAT Verbal kurslarımız tələbələri SAT imtahanının verbal hissəsinə hazırlamaq üçün nəzərdə tutulmuşdur. Bu kursda şagirdlərə oxu, yazı və analiz bacarıqları inkişaf etdirilir. Əsas məqsəd, şagirdlərin mətnləri düzgün təhlil etməsi və onları şərh etməsi bacarıqlarını artırmaqdır. Kurs, həmçinin geniş söz bazası və yazılı ifadə bacarıqlarını təkmilləşdirməyə kömək edir, bu da imtahanda yüksək bal toplamaq üçün vacibdir. SAT Verbal kursu, tələbələrə imtahanın verbal hissəsindən uğurla keçmək və yüksək nəticələr əldə etmək üçün lazımi bacarıqları təqdim edir.
+                                    SAT imtahanı, xaricdə-da təhsil almaq istəyən tələbələr üçün ən mühüm imtahanlardan biridir. SAT imtahanının Math (Riyaziyyat) və Verbal (Reading və Writing) bölmələrinə hazırlıq kurslarımızla, sizə yüksək nəticə əldə etməyə kömək edirik. Peşəkar müəllimlərimizin rəhbərliyi altında həm Riyaziyyat, həm də Oxu və Yazı bölmələrində bacarıqlarınızı təkmilləşdirəcəksiniz. SAT dərslərinə qoşulmaq üçün İngilis dili bilik svəiyyəniz minimum B1 səviyyəsində olmalıdır.
                                 </p>
                             </div>
                         </div>
@@ -218,15 +218,15 @@ function Sat() {
                                 <span className="text-indigo-600 text-xl">✔️</span>
                             </div>
                             <h3 className="text-xl font-semibold mb-2 text-center">Onlayn və Əyani Dərslər</h3>
-                            <p className="text-gray-600 text-center">Uşaqların rahatlığına uyğun olaraq dərslər keçirilir.</p>
+                            <p className="text-gray-600 text-center">Tələbələrin rahatlığına uyğun olaraq dərslər keçirilir.</p>
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm">
                             <div className="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
                                 <span className="text-indigo-600 text-xl">✔️</span>
                             </div>
-                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2-3 dəfə, 60 dəqiqəlik dərslər</h3>
-                            <p className="text-gray-600 text-center">Uşaqların diqqətini cəlb edəcək müddətdə intensiv dərslər.</p>
+                            <h3 className="text-xl font-semibold mb-2 text-center">Həftədə 2 dəfə 90 dəq Verbal, 2 dəfə 90 dəq MATH</h3>
+                            <p className="text-gray-600 text-center">Tələbələrin diqqətini cəlb edəcək müddətdə intensiv dərslər.</p>
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -234,7 +234,7 @@ function Sat() {
                                 <span className="text-indigo-600 text-xl">✔️</span>
                             </div>
                             <h3 className="text-xl font-semibold mb-2 text-center">Davamlı Rəy və İzləmə</h3>
-                            <p className="text-gray-600 text-center">Uşaqların inkişafını izləyirik və müntəzəm olaraq geri dönürük.</p>
+                            <p className="text-gray-600 text-center">Tələbələrin inkişafını izləyirik və müntəzəm olaraq geri dönürük.</p>
                         </div>
                     </div>
                 </div>

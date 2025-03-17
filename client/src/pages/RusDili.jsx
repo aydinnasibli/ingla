@@ -42,14 +42,7 @@ function RusDili() {
                                     <li>Təcrübəli müəllimlərimiz müasir tədris metodlarından istifadə edərək dərsləri maraqlı və faydalı edir.
                                         .</li>
                                     <li>Kursumuz bütün səviyyələrə uyğundur – həm yeni başlayanlar, həm də irəliləmiş tələbələr üçün                                    .</li>
-                                    <li>Kursu uğurla bitirən tələbələr rəsmi sertifikat əldə edərək akademik və peşəkar imkanlarını genişləndirə bilərlər.
 
-
-
-
-
-
-                                    </li>
 
 
                                 </ul>
