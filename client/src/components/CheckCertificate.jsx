@@ -90,9 +90,9 @@ const CertificateSection = () => {
             <div className="text-center mt-10">
                 <button
                     onClick={() => setIsOpen(true)}
-                    className="py-2 px-6 rounded-lg font-semibold border border-gray-600 text-gray-900
-                        bg-gray-300  transition-all duration-300 
-                        hover:shadow-xl hover:bg-gray-400 hover:scale-105"
+                    className="py-2 px-6 rounded-lg font-semibold  text-gray-900
+                        bg-[#ffde2b]  transition-all duration-300 
+                        hover:shadow-xl hover:bg-[#f3d11d] hover:scale-105"
                 >
                     Sertifikatı Yoxla
                 </button>
@@ -139,9 +139,9 @@ const CertificateSection = () => {
                     <div className="flex justify-center">
                         <button
                             onClick={checkCertificate}
-                            className="py-2 px-6 rounded-lg font-semibold border border-gray-600 text-gray-900
-            bg-gray-400 transition-all duration-300 
-                hover:shadow-xl hover:bg-gray-500 hover:scale-105"
+                            className="py-2 px-6 rounded-lg font-semibold   text-gray-900
+            bg-[#ffde2b] transition-all duration-300 
+                hover:shadow-xl hover:bg-[#f3d11d] hover:scale-105"
                         >
                             Yoxla
                         </button>

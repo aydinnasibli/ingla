@@ -50,12 +50,12 @@ const sendJoinCourseForm = async (req, res) => {
             to: 'info@inglaschool.az', // Change to the recipient's email
             subject: 'New Contact Form Submission',
             html: `
-                <h2>New Contact Form Submission</h2>
-                <p><strong>Name:</strong> ${name}</p>
-                <p><strong>Course:</strong> ${course}</p>
-                <p><strong>Phone:</strong> ${phone}</p>
+                <h2>Kursa Qoşul </h2>
+                <p><strong>Ad Soyad:</strong> ${name}</p>
+                <p><strong>Kurs:</strong> ${course}</p>
+                <p><strong>Telefon:</strong> ${phone}</p>
                 <p><strong>Email:</strong> ${email}</p>
-                <p><strong>Message:</strong> ${message}</p>
+                <p><strong>Mesaj:</strong> ${message}</p>
             `
         };
         console.log('stuck')
@@ -116,12 +116,12 @@ const sendContactForm = async (req, res) => {
             to: 'info@inglaschool.az', // Change to the recipient's email
             subject: 'New Contact Form Submission',
             html: `
-                <h2>New Contact Form Submission</h2>
-                <p><strong>Name:</strong> ${name}</p>
+                <h2>Kontakt formu</h2>
+                <p><strong>Ad Soyad:</strong> ${name}</p>
                 <p><strong>Email:</strong> ${email}</p>
-                <p><strong>Phone:</strong> ${phone}</p>
-                <p><strong>Preferred Contact:</strong> ${preferredContact}</p>
-                <p><strong>Message:</strong> ${message}</p>
+                <p><strong>Telefon:</strong> ${phone}</p>
+                <p><strong>Əlaqə Üstünlüyü:</strong> ${preferredContact}</p>
+                <p><strong>Mesaj:</strong> ${message}</p>
             `
         };
         await transporter.sendMail(mailOptions);
