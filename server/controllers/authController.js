@@ -44,9 +44,9 @@ const sendTrainingCenterForm = async (req, res) => {
         const mailOptions = {
             from: process.env.EMAIL_USER,
             to: 'info@inglaschool.az', // Change to the recipient's email
-            subject: 'Kursa Qoşulmaq Üçün Müraciət',
+            subject: 'Təlim Mərkəzi Üçün Müraciət',
             html: `
-                <h2>Kursa Qoşul </h2>
+                <h2>Təlim Mərkəzi </h2>
                 <p><strong>Ad Soyad:</strong> ${name}</p>
                 <p><strong>Kurs:</strong> ${course}</p>
                 <p><strong>Telefon:</strong> ${phone}</p>
