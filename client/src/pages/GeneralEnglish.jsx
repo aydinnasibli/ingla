@@ -7,21 +7,20 @@ import photo3 from '../assets/11ratio/IMG_8981.png'
 import photo4 from '../assets/11ratio/IMG_8980.png'
 import photo5 from '../assets/11ratio/IMG_8517.png'
 import photo6 from '../assets/11ratio/IMG_8516.png'
+import { useNavigate } from "react-router-dom";
 
 const englishCourses = [
     {
         title: "Ümumi İngilis dili",
-        description: "Özünüzə inamlə şəkildə səlis ingiliscə danışın",
+        description: "Özünüzə inamla şəkildə səlis ingiliscə danışın",
         image: photo5,
         duration: "1-9 ay",
         level: "Başlanğıcdan Orta səviyyəyə",
         curriculum: "Qrammatika, Lüğət, Danışıq, Dinləmə, Yazı",
-        instructor: "John Doe, İngilis dilçiliyində magistr",
         class: "Maksimum 6, fərdi",
         classTime: "120 dəqiqə",
         calendar: "Həftədə 3 dəfə",
         age: "10",
-        prerequisites: "Tələb yoxdur",
         features: ["İnteraktiv dərslər", "Unit imtahanları", "Əlavə materiallar"],
         enrollmentLink: "#"
     },
@@ -32,12 +31,10 @@ const englishCourses = [
         duration: "1-9 ay",
         level: "Başlanğıc",
         curriculum: "İnteraktiv Oyunlar, Lüğət, Sadə Cümlələr, Hekayələr",
-        instructor: "Jane Smith, Təhsil üzrə bakalavr",
         class: "Maksimum 6, fərdi",
         classTime: "90 dəqiqə",
         calendar: "Həftədə 2 dəfə",
         age: " 4",
-        prerequisites: "Tələb yoxdur",
         features: ["Interaktiv dərs", "Unit imtahanları", "Əlavə materiallar", "Həvəsləndirmə tədbirləri"],
         enrollmentLink: "#"
     },
@@ -52,8 +49,6 @@ const englishCourses = [
         classTime: "180 dəqiqə",
         calendar: "Həftədə 5 dəfə",
         age: "10",
-        instructor: "Alice Johnson, TESOL Sertifikatlı",
-        prerequisites: "Orta səviyyəli İngilis dili",
         features: ["Interaktiv dərs", "Unit imtahanları", "Əlavə materiallar", "Həvəsləndirmə tədbirləri"],
         enrollmentLink: "#"
     },
@@ -64,12 +59,10 @@ const englishCourses = [
         duration: "1-9 ay",
         level: "Orta səviyyədən Yüksək səviyyəyə",
         curriculum: "Biznes Lüğəti, İclaslar, Təqdimatlar, Danışıqlar Bacarığı",
-        instructor: "Michael Brown, MBA, Sertifikatlı Biznes İngilis dili Müəllimi",
         class: "Maksimum 6, fərdi",
         classTime: "90 dəqiqə",
         calendar: "Həftədə 2 dəfə",
         age: "18",
-        prerequisites: "Əsas Biznes İngilis dili",
         features: ["Hazır qəliblər əsasında nitq çıxışı", "Sahələr üzrə Əlavə materiallar", "Rəsmi məktubların yazılma forması"],
         enrollmentLink: "#"
     },
@@ -80,12 +73,10 @@ const englishCourses = [
         duration: "1-4 ay",
         level: "Orta səviyyə",
         curriculum: "Tələffüz, Gündəlik Danışıqlar, İctimai Danışıq, Müzakirələr",
-        instructor: "David Lee, TESOL Sertifikatlı",
         class: "Maksimum 4, fərdi",
         classTime: "60 dəqiqə",
         calendar: "Həftədə 2-3 dəfə",
         age: "15",
-        prerequisites: "Orta səviyyəli İngilis dili",
         features: ["Rollu oyunlar", "Müxtəlif məkanlarda praktika", "Düzgün tələffüz"],
         enrollmentLink: "#"
     },
@@ -94,7 +85,7 @@ const englishCourses = [
 
 const GeneralEnglish = () => {
     const [selectedCourse, setSelectedCourse] = useState(null);
-
+    const navigate = useNavigate()
     const handleCourseClick = (course) => {
         setSelectedCourse(course);
     };
@@ -147,33 +138,53 @@ const GeneralEnglish = () => {
                         >
                             &times;
                         </button>
+
+                        {/* Course Title */}
                         <h2 className="text-3xl font-semibold text-gray-800">{selectedCourse.title}</h2>
+
+                        {/* Course Image */}
                         <img
                             src={selectedCourse.image}
                             alt={selectedCourse.title}
                             className="w-full h-64 object-cover rounded-lg mt-4"
                         />
-                        <p className="text-lg text-gray-600 mt-4">{selectedCourse.description}</p>
-                        <p className="text-sm text-gray-500 mt-2"><strong>Müddət:</strong> {selectedCourse.duration}</p>
-                        <p className="text-sm text-gray-500 mt-2"><strong>Sinif:</strong> {selectedCourse.class}</p>
-                        <p className="text-sm text-gray-500 mt-2"><strong>Dərs Müddəti:</strong> {selectedCourse.classTime}</p>
-                        <p className="text-sm text-gray-500 mt-2"><strong>Dərs Cədvəli:</strong> {selectedCourse.calendar}</p>
-                        <p className="text-sm text-gray-500 mt-2"><strong>Minimum Yaş:</strong> {selectedCourse.age}</p>
-                        <p className="text-sm text-gray-500 mt-4"><strong>Kurikulum:</strong> {selectedCourse.curriculum}</p>
 
-                        {/* Əlavə Kurs Məlumatı */}
-                        <div className="mt-6">
-                            <p className="text-sm text-gray-500"><strong>Müəllim:</strong> {selectedCourse.instructor}</p>
-                            <p className="text-sm text-gray-500"><strong>Tələblər:</strong> {selectedCourse.prerequisites}</p>
-                            <p className="text-sm text-gray-500 mt-4"><strong>Xüsusiyyətlər:</strong></p>
-                            <ul className="list-disc pl-5">
-                                {selectedCourse.features.map((feature, index) => (
-                                    <li key={index} className="text-sm text-gray-500">{feature}</li>
-                                ))}
-                            </ul>
+                        {/* Course Details + Register Button */}
+                        <div className="flex justify-between items-start mt-4">
+                            <div className="w-2/3">
+                                <p className="text-lg text-gray-600">{selectedCourse.description}</p>
+                                <p className="text-sm text-gray-500 mt-2"><strong>Müddət:</strong> {selectedCourse.duration}</p>
+                                <p className="text-sm text-gray-500 mt-2"><strong>Sinif:</strong> {selectedCourse.class}</p>
+                                <p className="text-sm text-gray-500 mt-2"><strong>Dərs Müddəti:</strong> {selectedCourse.classTime}</p>
+                                <p className="text-sm text-gray-500 mt-2"><strong>Dərs Cədvəli:</strong> {selectedCourse.calendar}</p>
+                                <p className="text-sm text-gray-500 mt-2"><strong>Minimum Yaş:</strong> {selectedCourse.age}</p>
+                                <p className="text-sm text-gray-500 mt-4"><strong>Kurikulum:</strong> {selectedCourse.curriculum}</p>
+
+                                {/* Features */}
+                                <div className="mt-6">
+                                    <p className="text-sm text-gray-500"><strong>Xüsusiyyətlər:</strong></p>
+                                    <ul className="list-disc pl-5">
+                                        {selectedCourse.features.map((feature, index) => (
+                                            <li key={index} className="text-sm text-gray-500">{feature}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </div>
+
+                            {/* Right-Aligned Button */}
+                            <div className="w-auto flex justify-end ">
+                                <button
+                                    onClick={() => window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSc62sVg6Y3qm31NRmu6cj1QEC1qxeoPTAhbqQQTG0zBoeDeIQ/viewform?usp=header'}
+                                    className="bg-yellow-500 text-white px-6 py-3 rounded-lg hover:bg-yellow-600 transition"
+
+                                >
+                                    Səviyyəni Yoxla
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             )}
             <JoinCourse />
         </div>

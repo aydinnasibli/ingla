@@ -20,7 +20,7 @@ const TrainingCenterSchema = new Schema({
     },
     course: {
         type: String,
-        enum: ["Peşəkar Trener Akademiyası", "Karyera Məsləhətçiləri Kursu", "HR Peşəkarı", "Satış Uğurunun Sirləri", "Zamanı İdarə Etmə", "Bədən Dili və Ünsiyyət Bacarıqları", "Mindfulness: Zehni Rahatlıq və Fokuslanma", "PMP: Layihə İdarəetməsində Peşəkarlıq", "Şəxsi Brendinq və Sosial Media Strategiyaları", "Mobiliqrafiya və Vizual Kontent Yaratma"],
+        enum: ["Peşəkar Trener Akademiyası", "Komanda İdarəetməsi və Effektiv Kommunikasiya", "Karyera Məsləhətçiləri Kursu", "HR Peşəkarı", "Satış Uğurunun Sirləri", "Zamanı İdarə Etmə", "Bədən Dili və Ünsiyyət Bacarıqları", "Mindfulness: Zehni Rahatlıq və Fokuslanma", "PMP: Layihə İdarəetməsində Peşəkarlıq", "Şəxsi Brendinq və Sosial Media Strategiyaları", "Mobiliqrafiya və Vizual Kontent Yaratma"],
         required: true
     }
 });

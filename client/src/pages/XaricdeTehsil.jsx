@@ -8,10 +8,10 @@ import { useNavigate } from "react-router-dom";
 function XaricdeTehsil() {
     const navigate = useNavigate();
     const courses = [
-        { id: 1, name: "SAT", link: "#sat" },
-        { id: 2, name: "YÖS", link: "/yos" },
-        { id: 3, name: "Duolingo", link: "/duolingo" },
-        { id: 4, name: "IELTS", link: "/ielts" },
+        { id: 1, name: "IELTS", link: "/ielts" },
+        { id: 2, name: "Duolingo", link: "/duolingo" },
+        { id: 3, name: "SAT", link: "#sat" },
+        { id: 4, name: "YÖS", link: "/yos" },
     ];
     const steps = [
         {

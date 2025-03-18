@@ -43,6 +43,16 @@ const CertificateSection = () => {
 
     return (
         <div className="py-16 px-6 sm:px-12">
+            <div className="text-center mb-10">
+                <button
+                    onClick={() => setIsOpen(true)}
+                    className="py-3 px-16 rounded-lg font-semibold  text-gray-900
+                        bg-[#ffde2b] hover:bg-[#f3d11d] transition-all duration-300 
+                        hover:shadow-xl  hover:scale-105"
+                >
+                    Sertifikatı Yoxla
+                </button>
+            </div>
             <Toaster />
             <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold text-gray-900">Sertifikatların Önəmi</h2>
@@ -77,26 +87,17 @@ const CertificateSection = () => {
                 ].map((card, index) => (
                     <div
                         key={index}
-                        className="p-6 border rounded-lg shadow-md text-center transition transform hover:shadow-xl hover:-translate-y-2"
+                        className="p-3 border rounded-lg shadow-md text-center transition transform hover:shadow-xl hover:-translate-y-2"
                     >
                         {card.icon}
-                        <h3 className="text-xl font-semibold text-gray-800">{card.title}</h3>
-                        <p className="text-gray-600 mt-2">{card.desc}</p>
+                        <h3 className="text-lg font-semibold text-gray-800">{card.title}</h3>
+                        <p className="text-gray-600 text-sm mt-2">{card.desc}</p>
                     </div>
                 ))}
             </div>
 
             {/* Button to Open Pop-up */}
-            <div className="text-center mt-10">
-                <button
-                    onClick={() => setIsOpen(true)}
-                    className="py-2 px-6 rounded-lg font-semibold  text-gray-900
-                        bg-[#ffde2b] hover:bg-[#f3d11d] transition-all duration-300 
-                        hover:shadow-xl  hover:scale-105"
-                >
-                    Sertifikatı Yoxla
-                </button>
-            </div>
+
 
             {/* Popup Dialog */}
             <Dialog
