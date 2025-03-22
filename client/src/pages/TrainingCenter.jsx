@@ -11,17 +11,17 @@ const components = {
     "Fərdi Təlimlər": <PersonalTraining />,
     "Korporatif Təlimlər": <CorporateTraining />,
     "Layihələr": <Projects />,
-    "Mentorluq programları": <MentoringTraining />,
-    "Kurslar": <Courses />,
-    "İngla Club": <InglaClub />,
+    "Mentorluq Programları": <MentoringTraining />,
+    "İnkişaf Kursları": <Courses />,
+    "İngla Klub": <InglaClub />,
 };
 
 const cardData = [
     { title: "Fərdi Təlimlər", icon: <FaUserGraduate size={50} className="text-blue-500" /> },
     { title: "Korporatif Təlimlər", icon: <FaBuilding size={50} className="text-green-500" /> },
     { title: "Layihələr", icon: <FaProjectDiagram size={50} className="text-purple-500" /> },
-    { title: "Mentorluq programları", icon: <FaChalkboardTeacher size={50} className="text-orange-500" /> },
-    { title: "Kurslar", icon: <FaBook size={50} className="text-red-500" /> },
+    { title: "Mentorluq Programları", icon: <FaChalkboardTeacher size={50} className="text-orange-500" /> },
+    { title: "İnkişaf Kursları", icon: <FaBook size={50} className="text-red-500" /> },
     { title: "İngla Club", icon: <FaUsers size={50} className="text-teal-500" /> },
 ];
 
