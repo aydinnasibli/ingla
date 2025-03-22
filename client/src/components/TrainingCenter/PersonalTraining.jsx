@@ -13,12 +13,7 @@ const trainings = [
         about: "Bu proqram yeni və ixtisasını artırmaq istəyən trenerlər üçün düzgün metodologiyaları öyrədir.",
         icon: <FaChalkboardTeacher className="text-blue-600 text-4xl" />
     },
-    {
-        title: "Karyera Məsləhətçiləri Kursu",
-        plan: "Karyera məsləhətçisinin rolu, fərdi inkişaf planları, peşə seçimində psixoloji yanaşmalar, əmək bazarının təhlili.",
-        about: "Karyera məsləhətçisi olmaq istəyənlər üçün nəzərdə tutulub.",
-        icon: <FaBriefcase className="text-green-600 text-4xl" />
-    },
+
     {
         title: "HR Peşəkarı",
         plan: "HR strategiyaları, istedad idarəetməsi, performans qiymətləndirilməsi.",

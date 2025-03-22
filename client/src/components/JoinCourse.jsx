@@ -11,7 +11,7 @@ export default function JoinCourse() {
         course: "",
     })
 
-    const courses = ["İngilis Dili", "Ielts", "Duolingo", "SAT", "YÖS", "Calculus", " IB Cambridge Math", "Alman Dili", "Rus Dili", "Ada School"];
+    const courses = ["İngilis Dili", "Ielts", "Preschool", "Duolingo", "SAT", "YÖS", "Calculus", " IB Cambridge Math", "Alman Dili", "Rus Dili", "Ada School"];
 
 
 

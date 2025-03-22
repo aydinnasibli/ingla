@@ -22,7 +22,7 @@ const cardData = [
     { title: "Layihələr", icon: <FaProjectDiagram size={50} className="text-purple-500" /> },
     { title: "Mentorluq Programları", icon: <FaChalkboardTeacher size={50} className="text-orange-500" /> },
     { title: "İnkişaf Kursları", icon: <FaBook size={50} className="text-red-500" /> },
-    { title: "İngla Club", icon: <FaUsers size={50} className="text-teal-500" /> },
+    { title: "İngla Klub", icon: <FaUsers size={50} className="text-teal-500" /> },
 ];
 
 const TrainingCenter = () => {
@@ -35,6 +35,8 @@ const TrainingCenter = () => {
 
     return (
         <div className="mt-10 flex flex-col items-center justify-center p-6">
+
+            {!activeComponent && <h1 className="text-4xl font-bold mb-10">Təlim Mərkəzi</h1>}
             {activeComponent ? (
                 <div className="w-full max-w-4xl">
                     {/* Back Button */}
