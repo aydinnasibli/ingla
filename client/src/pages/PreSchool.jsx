@@ -1,8 +1,26 @@
 import React from "react";
 import JoinCourse from "../components/JoinCourse";
-import photo1 from '../assets/kidsenglish/IMG_8454.png'
-import photo2 from '../assets/kidsenglish/IMG_8458.png'
+import photo1 from '../assets/kidsenglish/kds.jpeg'
+import photo2 from '../assets/kidsenglish/kdse.jpeg'
+// Import new images for the additional services
+import psychologistImg from '../assets/kidsenglish/pisxo.jpeg'
+import logopedImg from '../assets/kidsenglish/lgped.jpeg'
+import artImg from '../assets/kidsenglish/resm.jpeg'
+import chessImg from '../assets/kidsenglish/ches.jpeg'
+import languageImg from '../assets/kidsenglish/usgu.jpeg'
+import homeworkImg from '../assets/kidsenglish/evtap.jpeg'
+
 const PreschoolPage = () => {
+    // Create an array with service data including images
+    const additionalServices = [
+        { title: "Psixoloq", image: psychologistImg, description: "Uşaqların psixoloji inkişafına dəstək və məsləhət xidmətləri." },
+        { title: "Loqoped", image: logopedImg, description: "Nitq və dil inkişafı problemlərinin həlli üçün peşəkar dəstək." },
+        { title: "Rəsm dərsi", image: artImg, description: "Yaradıcılıq və incəsənət bacarıqlarını inkişaf etdirən dərslər." },
+        { title: "Şahmat dərsi", image: chessImg, description: "Məntiqi düşüncə və strateji planlaşdırma bacarıqlarını inkişaf etdirən şahmat təlimi." },
+        { title: "Uşaqlar üçün dil dərsləri (ingilis, rus, alman)", image: languageImg, description: "Müxtəlif dilləri öyrənmək üçün yaşa uyğun dil dərsləri." },
+        { title: "Ev tapşırıqlarına dəstək", image: homeworkImg, description: "Məktəbli uşaqlar üçün ev tapşırıqlarında köməklik və əlavə dəstək." }
+    ];
+
     return (
         <div className="max-w-6xl mx-auto p-6  text-black">
             <h1 className="text-4xl font-bold text-center text-black  mb-8">
@@ -29,20 +47,25 @@ const PreschoolPage = () => {
             </section>
 
             <section className="mb-12">
-                <h1 className="text-4xl font-bold text-center text-black  mb-8">
+                <h1 className="text-4xl font-bold text-center text-black mb-8">
                     Əlavə Xidmətlər
                 </h1>
                 <div className="grid md:grid-cols-3 gap-6">
-                    {[
-                        "Psixoloq", "Loqoped", "Rəsm dərsi", "Şahmat dərsi",
-                        "Uşaqlar üçün dil dərsləri (ingilis, rus, alman)", "Ev tapşırıqlarına dəstək"
-                    ].map((service, index) => (
-                        <div key={index} className="bg-white p-6 shadow-md rounded-xl text-center transform transition duration-300 hover:shadow-2xl hover:-translate-y-2">
-                            <h3 className="text-lg font-semibold text-gray-800">{service}</h3>
+                    {additionalServices.map((service, index) => (
+                        <div key={index} className="bg-white p-6 shadow-lg rounded-2xl transform transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+                            <img
+                                src={service.image}
+                                alt={service.title}
+                                className="w-full h-48 object-cover rounded-xl"
+                                style={{ aspectRatio: '1 / 1' }}
+                            />
+                            <h3 className="text-lg font-semibold text-gray-800 mt-4">{service.title}</h3>
+                            <p className="text-gray-600 mt-2">{service.description}</p>
                         </div>
                     ))}
                 </div>
             </section>
+
             <section className="py-24 ">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mb-14 text-center">
