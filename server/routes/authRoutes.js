@@ -4,8 +4,9 @@ const cors = require('cors');
 const { sendContactForm } = require('../controllers/authController');
 const { sendJoinCourseForm } = require('../controllers/authController');
 const { sendTrainingCenterForm } = require('../controllers/authController');
-
+const { sendJoinCoursePreschoolForm } = require('../controllers/authController');
 router.post('/kontakt', sendContactForm);
 router.post('/joincourse', sendJoinCourseForm);
+router.post('/joincoursepreschool', sendJoinCoursePreschoolForm);
 router.post('/trainingcenter', sendTrainingCenterForm);
 module.exports = router;

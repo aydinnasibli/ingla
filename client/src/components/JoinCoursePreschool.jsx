@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { toast } from "react-hot-toast";
-export default function JoinCourse() {
+export default function JoinCoursePreschool() {
     const [isOpen, setIsOpen] = useState(false);
     const [data, setData] = useState({
         name: "",
@@ -11,7 +11,7 @@ export default function JoinCourse() {
         course: "",
     })
 
-    const courses = ["İngilis Dili", "Ielts", "Duolingo", "SAT", "YÖS", "Calculus", " IB Cambridge Math", "Alman Dili", "Rus Dili", "Ada School"];
+    const courses = ["Azərbaycan bölməsi məktəbəqədər qrupu", "Rus bölməsi məktəbəqədər qrupu", "IB/Cambridge məktəbəqədər", "Erkən inkişaf qrupları", "Tam gün bağça"];
 
 
 
@@ -19,7 +19,7 @@ export default function JoinCourse() {
         e.preventDefault();
         const { name, course, phone, email, message } = data;
         try {
-            const { data } = await axios.post('/joincourse', { name, course, phone, email, message })
+            const { data } = await axios.post('/joincoursepreschool', { name, course, phone, email, message })
             if (data.error) {
                 toast.error(data.error);
                 return; // Stop execution if there's an error

@@ -9,6 +9,7 @@ import artImg from '../assets/kidsenglish/resm.jpeg'
 import chessImg from '../assets/kidsenglish/ches.jpeg'
 import languageImg from '../assets/kidsenglish/usgu.jpeg'
 import homeworkImg from '../assets/kidsenglish/evtap.jpeg'
+import JoinCoursePreschool from "../components/JoinCoursePreschool";
 
 const PreschoolPage = () => {
     // Create an array with service data including images
@@ -249,7 +250,7 @@ const PreschoolPage = () => {
                     </div>
                 </div>
             </section>
-            <JoinCourse />
+            <JoinCoursePreschool />
         </div>
     );
 };
