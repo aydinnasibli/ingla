@@ -63,7 +63,7 @@ function CampAbroad() {
             location: "AMEA Mərkəzi Elmi Kitabxanası, Bakı",
             date: "3 may 2025",
             description: "Özbəkistanın 15-dən çox nüfuzlu universitetinin iştirakı ilə azərbaycanlı tələbələr üçün təhsil imkanları təqdim edən sərgi.",
-            image: "/api/placeholder/600/400",
+            image: "https://i.imghippo.com/files/RJxm8807aMM.jpeg",
             contact: "+994 10 310 71 17",
             icon: "education",
             ageRange: "Abituriyentlər", // Added ageRange
