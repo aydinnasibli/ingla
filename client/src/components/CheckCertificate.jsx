@@ -43,16 +43,7 @@ const CertificateSection = () => {
 
     return (
         <div className="py-16 px-6 sm:px-12">
-            <div className="text-center mb-10">
-                <button
-                    onClick={() => setIsOpen(true)}
-                    className="py-3 px-16 rounded-lg font-semibold  text-gray-900
-                        bg-[#ffde2b] hover:bg-[#f3d11d] transition-all duration-300 
-                        hover:shadow-xl  hover:scale-105"
-                >
-                    Sertifikatı Yoxla
-                </button>
-            </div>
+
             <Toaster />
             <div className="text-center mb-10">
                 <h2 className="text-3xl font-bold text-gray-900">Sertifikatların Önəmi</h2>
@@ -97,7 +88,16 @@ const CertificateSection = () => {
             </div>
 
             {/* Button to Open Pop-up */}
-
+            <div className="text-center mt-10">
+                <button
+                    onClick={() => setIsOpen(true)}
+                    className="py-3 px-16 rounded-lg font-semibold  text-gray-900
+                        bg-[#ffde2b] hover:bg-[#f3d11d] transition-all duration-300 
+                        hover:shadow-xl  hover:scale-105"
+                >
+                    Sertifikatı Yoxla
+                </button>
+            </div>
 
             {/* Popup Dialog */}
             <Dialog
