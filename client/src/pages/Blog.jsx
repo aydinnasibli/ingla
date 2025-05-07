@@ -13,9 +13,8 @@ const Blog = () => {
     return (
         <div className="container mx-auto px-4 py-12 bg-gray-50">
             <div className="text-center mb-12">
-                <h1 className="text-4xl font-bold text-gray-800 mb-2">Our Blog</h1>
+                <h1 className="text-4xl font-bold text-gray-800 mb-2">Blog</h1>
                 <div className="w-24 h-1 bg-yellow-500 mx-auto mb-4"></div>
-                <p className="text-gray-600 max-w-2xl mx-auto">Stay updated with our latest thoughts, ideas and discoveries</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
