@@ -70,11 +70,6 @@ const Blog = () => {
                 ))}
             </div>
 
-            <div className="mt-12 text-center">
-                <button className="bg-white border-2 border-yellow-500 text-yellow-600 px-6 py-3 rounded-full font-medium hover:bg-yellow-500 hover:text-white transition-colors">
-                    Load More Articles
-                </button>
-            </div>
         </div>
     );
 };
