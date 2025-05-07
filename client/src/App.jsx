@@ -22,6 +22,8 @@ import TrainingCenter from './pages/TrainingCenter'
 import PreschoolPage from './pages/PreSchool'
 import RusDili from './pages/RusDili'
 import Ielts from './pages/Ielts'
+import Blog from './pages/Blog'
+import BlogPost from './pages/BlogPost'
 import { Toaster } from 'react-hot-toast'
 axios.defaults.baseURL = 'https://ingla.onrender.com'
 axios.defaults.withCredentials = true
@@ -282,7 +284,37 @@ function App() {
               </motion.div>
             } />
 
+            <Route path="/blog" element={
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 100 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 80, // Lower stiffness for softer motion
+                  damping: 15,   // Higher damping to avoid excessive bounciness
+                  opacity: { duration: 0.6 }, // Ensure opacity changes are smooth and sync well
+                }}
+              >
+                <Blog />
+              </motion.div>
+            } />
 
+            <Route path="/blog/:slug" element={
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 100 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 80, // Lower stiffness for softer motion
+                  damping: 15,   // Higher damping to avoid excessive bounciness
+                  opacity: { duration: 0.6 }, // Ensure opacity changes are smooth and sync well
+                }}
+              >
+                <BlogPost />
+              </motion.div>
+            } />
           </Routes>
         </AnimatePresence >
       </Layout>
