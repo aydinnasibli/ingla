@@ -1,7 +1,7 @@
+// Modified version of client/src/data/blogData.js
 const blogData = [
-
   {
-    id: 2,
+    id: "2", // Converting IDs to strings for consistency
     title: 'Azərbaycan Mətbəxinin Ən Dadlı Yeməkləri',
     slug: 'azerbaycan-metbexinin-en-dadli-yemekleri',
     date: '2025-04-22',
@@ -22,7 +22,7 @@ const blogData = [
     tags: ['Azərbaycan Mətbəxi', 'Yemək Reseptləri', 'Milli Yeməklər']
   },
   {
-    id: 3,
+    id: "3",
     title: 'Bakının Tarixi Məkanları',
     slug: 'bakinin-tarixi-mekanlari',
     date: '2025-05-01',
@@ -42,12 +42,11 @@ const blogData = [
     tags: ['Bakı', 'Tarix', 'Mədəniyyət', 'Turizm']
   },
   {
-    id: 4,
+    id: "4",
     title: 'Süni İntellekt və Onun Gələcək Perspektivləri',
     slug: 'suni-intellekt-ve-onun-gelecek-perspektivleri',
     date: '2025-05-10',
     image: 'https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
-
     excerpt: 'Süni intellektin müasir inkişafı və onun gələcəkdə cəmiyyətə təsiri haqqında analiz.',
     content: `
       <p>Süni intellekt (Sİ) texnologiyası son illərdə sürətlə inkişaf edib və cəmiyyətin müxtəlif sahələrinə inteqrasiya olunub.</p>
@@ -63,7 +62,7 @@ const blogData = [
     tags: ['Süni İntellekt', 'Texnologiya', 'Maşın Öyrənməsi', 'Rəqəmsal Transformasiya']
   },
   {
-    id: 5,
+    id: "5",
     title: 'Azərbaycan Muğamı: Dünya Mədəni İrsinin İncisi',
     slug: 'azerbaycan-mugami-dunya-medeni-irsinin-incisi',
     date: '2025-05-18',
@@ -83,7 +82,7 @@ const blogData = [
     tags: ['Muğam', 'Musiqi', 'Mədəni İrs', 'Azərbaycan Mədəniyyəti']
   },
   {
-    id: 6,
+    id: "6",
     title: 'Ekoloji Kənd Təsərrüfatı Üsulları',
     slug: 'ekoloji-kend-teserrufati-usullari',
     date: '2025-06-01',
