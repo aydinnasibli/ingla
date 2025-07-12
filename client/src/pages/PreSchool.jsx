@@ -39,7 +39,7 @@ const PreschoolPage = () => {
                         <img src={photo2} alt="Preschool" className="w-full h-64 object-cover rounded-xl" style={{ aspectRatio: '1 / 1' }} />
                         <h3 className="text-xl font-semibold mt-4">Məktəbəqədər Hazırlıq Qrupları (5-6 yaş)</h3>
                         <ul className="list-disc list-inside text-gray-600 mt-2 space-y-1">
-                            <li>IB/Cambridge proqramına əsaslanan İngilis bölməsi üçün məktəbəqədər hazırlıq proqramı</li>
+                            <li> İngilis bölməsi üçün məktəbəqədər hazırlıq proqramı</li>
                             <li>Azərbaycan bölməsi üçün Elm və Təhsil Nazirliyinin dövlət proqramı</li>
                             <li>Rus bölməsi üçün Elm və Təhsil Nazirliyinin dövlət proqramı</li>
                         </ul>
